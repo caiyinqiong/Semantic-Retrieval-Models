@@ -169,7 +169,7 @@
   - [x] 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
   - [x] **RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL**（2020）
 - 预训练模型
-- [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
+  - [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
   - [x] 【REALM】: Retrieval-Augmented Language Model Pre-Training（2020）
   - [x] Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
   - [x] Embedding-based Zero-shot Retrieval through Query Generation（query生成，预训练）
