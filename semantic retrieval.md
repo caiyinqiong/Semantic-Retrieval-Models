@@ -85,10 +85,9 @@
 
 - [ ] A comparative study of utilizing topic models for information retrieval.（2009）
 
-
 - [ ] Latent semantic indexing (lsi) fails for trec collections（2011）
 
-- [ ] 
+
 
 - [ ] 指明快速推断对于IR的重要性，提出两层无向图模型：Exponential family harmoniums with an application to information retrieval.（2005）
 
