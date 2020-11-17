@@ -85,9 +85,7 @@
 
 - [ ] A comparative study of utilizing topic models for information retrieval.（2009）
 
-
 - [ ] Latent semantic indexing (lsi) fails for trec collections（2011）
-
 
 
 
@@ -176,8 +174,7 @@
   
 - 预训练模型
 
-  - [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
-
+- [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019
   - [x] 【REALM】: Retrieval-Augmented Language Model Pre-Training（2020）
   - [x] Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
   - [x] Embedding-based Zero-shot Retrieval through Query Generation（query生成，预训练）
