@@ -88,7 +88,8 @@
 
 - [ ] Latent semantic indexing (lsi) fails for trec collections（2011）
 
-- [ ] 
+
+
 
 - [ ] 指明快速推断对于IR的重要性，提出两层无向图模型：Exponential family harmoniums with an application to information retrieval.（2005）
 
@@ -153,11 +154,14 @@
 ##### Dense
 
 - word embedding
+  
   - [x] End-to-end retrieval in continuous space（2018）
+  
 - 基于表示的模型
   - [x] DSSM
   - [x] ArcI
   - [x] QA-LSTM
+  
 - 专门的基于表示的模型
 
   - [x] 【DC-BERT】DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020）
@@ -168,9 +172,12 @@
   - [x] 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
   - [x] Efficient natural language response suggestion for smart reply.（2017）
   - [x] 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
-  - [x] **RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL**（2020）
+  - [x] RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020）
+  
 - 预训练模型
-- [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
+
+  - [x] 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
+
   - [x] 【REALM】: Retrieval-Augmented Language Model Pre-Training（2020）
   - [x] Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
   - [x] Embedding-based Zero-shot Retrieval through Query Generation（query生成，预训练）

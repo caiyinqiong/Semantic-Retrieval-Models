@@ -70,6 +70,12 @@
 
 - [ ] HAR（WWW，2019）A Hierarchical Attention Retrieval Model for Healthcare Question Answering
 - [x] RE2（2019）：Simple and Effective Text Matching with Richer Alignment Features
+- [x] MMN（SIGIR2019）：Multi-level Matching Networks for Text Matching
+
+##### 2020
+
+- [x] （AAAI2020）：Multi-level Head-wise Match and Aggregation in Transformer for Textual Sequence Matching
+- [x] KCG（AAAI2020）：Knowledge and Cross-Pair Pattern Guided Semantic Matching for Question Answering
 
 
 
