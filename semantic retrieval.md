@@ -2,8 +2,6 @@
 
 [TOC]
 
-
-
 ## Survey Paper
 
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) 
@@ -34,31 +32,18 @@
 #### Query Expansion
 
 - Global methods expand or reformulate query words by analyzing the word co-occurrences from the corpus being searched or using hand-crafted thesaurus
-
 - Global analysis often relies on external resources or document collections
-
 - Word-word associations in document retrieval systems.（1969）
-
 - Concept based query expansion（1993）
-
 - 【RM3】Relevance based language models（2001）
-
 - Model-based feedback in the language modeling approach to information retrieval.（2001）
-
 - Query expansion using local and global document analysis.
-
 - 【伪相关反馈】Query expansion using lexical-semantic relations.（1994）
-
 - 【伪相关反馈】Selecting good expansion terms for pseudo-relevance feedback.（2008）
-
 - 【Rocchio伪相关反馈】Relevance Feedback in Information Retrieval（1971）
-
 - Search Engines: Information Retrieval in Practice.（2009）
-
 - A comparative study of methods for estimating query language models with pseudo feedback.（2009）
-
 - Pseudo-relevance feedback based on matrix factorization（2016）
-
 - Reducing the risk of query expansion via robust constrained optimization（2009，基于伪相关反馈的查询扩展容易遭受query drift的问题）
 
 #### Term Dependency Model
@@ -68,45 +53,30 @@
   - An analysis of statistical and syntactic phrases（1997）
   - Term-weighting approaches in automatic text retrieval（1988）
   - A probabilistic model of information retrieval: development and comparative experiments.（2000）
-
 - 【BM25 + term dependency】
   - Relevance ranking using kernels.（2010）
-
 - 【LM + term dependency】
   - A general language model for information retrieval.（1999）
   - Biterm language models for document retrieval.（2002）
   - Capturing term dependencies using a language model based on sentence trees.（2002）
   - Dependence language model for information retrieval（2004）
-
 - A generative theory of relevance（2004）
 - 【SDM】A Markov random ﬁeld model for term dependencies（2005）
 
 #### Topic Model
 
 - 【GVSM】Generalized vector spaces model in information retrieval.（1985）
-
 - 【LSA/LSI】Indexing by latent semantic analysis.（1990）
-
 - 【NMF】Algorithms for non-negative matrix factorization.（2001）
-
 - 【RLSI】Regularized latent semantic indexing（2011）、Group matrix factorization for scalable topic modeling.（2012）
-
 - 【PLSA】Probabilistic latent semantic indexing（1999）
-
 - 【LDA】Latent dirichlet allocation（2003）
-
 - Supervised topic models.（2007）
-
 - Investigating task performance of probabilistic topic models: an empirical study of PLSA and LDA.（2010）
-
 - Corpus structure, language models, and ad hoc information retrieval.（2004，topic 模型用于平滑项）
-
 - Regularizing ad hoc retrieval scores（2005，topic 模型用于平滑项）
-
 - Lda-based document models for ad-hoc retrieval.（2006，LDA for IR 和 LDA用于LM的平滑）
-
 - A comparative study of utilizing topic models for information retrieval.（2009）
-
 - Latent semantic indexing (lsi) fails for trec collections（2011）
 
 #### Translation Model
@@ -121,6 +91,7 @@
 
 
 ## Neural Methods for Semantic Retrieval
+
 #### Sparse Retrieval Methods
 
 - 【DeepTR】Learning to reweight terms with distributed representations（2015）
@@ -143,7 +114,7 @@
 #### Dense Retrieval Methods
 
 - 【FV】Aggregating continuous word embeddings for information retrieval（2013）
--  Short Text Similarity with Word Embeddings（CIKM2015）
+- Short Text Similarity with Word Embeddings（CIKM2015）
 - 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
 - Efficient natural language response suggestion for smart reply（2017）
 - 【PIQA】Phrase indexed question answering: A new challenge for scalable document comprehension.（EMNLP2018）
@@ -153,7 +124,7 @@
 - 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
 - 【RepBERT】RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020）
 - 【DC-BERT】DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020）
-- 【ColBERT】ColBERT: Eicient and Eective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
+- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
 - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
 - 【ANCE】Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
 - 【RocketQA】An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering
@@ -166,7 +137,6 @@
 - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（2021）
 - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）
 - 加速
-
   - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
   - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（WWW2019）
   - 【PreTTR】Efficient Document Re-Ranking for Transformers by Precomputing Term Representations（SIGIR2020）
@@ -174,7 +144,6 @@
   - SPARTA: Efﬁcient Open-Domain Question Answering via Sparse Transformer Matching Retrieval
   - Conformer-kernel with query term independence for document retrieval（2020）
 - 预训练
-
   - 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019
   - 【REALM】 Retrieval-Augmented Language Model Pre-Training（2020）
   - Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
@@ -184,11 +153,10 @@
 #### Hybrid of Sparse-dense Retrieval Methods
 
 - Monolingual and cross-lingual information retrieval models based on (bilingual) word embeddings.（2015）
-
--  【GLM】 Word embedding based generalized language model for information retrieval.（2015）
+- 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
--  【DESM】A Dual Embedding Space Model for Document Ranking（2016）
+- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
 - 【DenSPI】Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index（ACL2019）
 - 【SPARC】Contextualized Sparse Representations for Real-Time Open-Domain Question Answering（ACL2020）
 - 【EPIC】Expansion via Prediction of Importance with Contextualization（SIGIR2020）
@@ -202,6 +170,7 @@
 
 
 ## Other Resources
+
 #### Other Tasks
 
 - Embedding-based Retrieval in Facebook Search（KDD2020）
@@ -237,5 +206,8 @@
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
+
+
+
 
 
