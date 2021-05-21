@@ -1,6 +1,11 @@
 <div align='center' ><font size='70'>Semantic Retrieval</font></div>
 
+<p align="center" style="font-size:200%"><br>Semantic Retrieval<br></p>
+
+
+
 ## Table of Contents
+
 - [Survey paper](#survey-paper)
 - [Chapter 1: Classical Term-based Retrieval](#classical-term-based-etrieval)
 - [Chapter 2: Early Methods for Semantic Retrieval](#early-methods-for-semantic-retrieval)
@@ -137,7 +142,7 @@
 - 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
 - 【RepBERT】RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020）
 - 【DC-BERT】DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020）
-- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
+- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
 - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
 - 【ANCE】Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
 - 【RocketQA】An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering
