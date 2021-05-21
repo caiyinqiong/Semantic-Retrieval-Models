@@ -113,7 +113,7 @@
 #### Dense Retrieval Methods
 
 - 【FV】Aggregating continuous word embeddings for information retrieval（2013）
--  Short Text Similarity with Word Embeddings（CIKM2015）
+- Short Text Similarity with Word Embeddings（CIKM2015）
 - 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
 - Efficient natural language response suggestion for smart reply（2017）
 - 【PIQA】Phrase indexed question answering: A new challenge for scalable document comprehension.（EMNLP2018）
@@ -123,7 +123,7 @@
 - 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
 - 【RepBERT】RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020）
 - 【DC-BERT】DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020）
-- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
+- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
 - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
 - 【ANCE】Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
 - 【RocketQA】An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering
@@ -156,6 +156,11 @@
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
 -  【DESM】A Dual Embedding Space Model for Document Ranking（2016）
+=======
+- 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
+- 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
+- Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
+- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
 - 【DenSPI】Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index（ACL2019）
 - 【SPARC】Contextualized Sparse Representations for Real-Time Open-Domain Question Answering（ACL2020）
 - 【EPIC】Expansion via Prediction of Importance with Contextualization（SIGIR2020）
@@ -179,6 +184,7 @@
 - 【DIN】Deep interest network for click-through rate prediction
 - 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，天猫）
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
+
 - Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
 - Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
 - Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
@@ -191,13 +197,25 @@
 #### Index
 
 - 基于树的方法
+  
   - 【KD树】Multidimensional binary search trees used for associative searching（1975）
 - 哈希方法
+  
   - 【LSH】Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998）
 - 矢量量化方法
+  
   - 【PQ】Product quantization for nearest neighbor search（2010）
 - 基于图的方法
   - 【NSW】Navigation in a small world
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
+
+  <<<<<<< HEAD
+    =======
+
+
+
+
+
+>>>>>>> b9ab80e4597c47ce670c1218a4b58418ddc1366a
