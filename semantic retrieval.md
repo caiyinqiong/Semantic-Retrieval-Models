@@ -184,38 +184,23 @@
 - 【DIN】Deep interest network for click-through rate prediction
 - 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，天猫）
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
-
-- Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
-- Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
-- Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
+-  Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
+-  Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
+-  Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
 
 #### Datasets
-
 - 【TREC CAR】TREC Complex Answer Retrieval Overview
 - 【MS MARCO】A human-generated machine reading comprehension datase
 
 #### Index
-
 - 基于树的方法
-  
   - 【KD树】Multidimensional binary search trees used for associative searching（1975）
 - 哈希方法
-  
   - 【LSH】Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998）
 - 矢量量化方法
-  
   - 【PQ】Product quantization for nearest neighbor search（2010）
 - 基于图的方法
   - 【NSW】Navigation in a small world
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
-
-  <<<<<<< HEAD
-    =======
-
-
-
-
-
->>>>>>> b9ab80e4597c47ce670c1218a4b58418ddc1366a
