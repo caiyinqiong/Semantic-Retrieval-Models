@@ -8,11 +8,14 @@
   - [Term Dependency Model](#term-dependency-model)
   - [Topic Model](#topic-model)
   - [Translation Model](#translation-model)
-- [Phase 2: Re-ranking stage](#re-ranking-stage)
-  - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
-  - [Design new pre-training tasks for reranking](#design-new-pre-training-tasks-for-reranking)
-  - [Modify on top of the existing pre-trained models](#modify-on-top-of-the-existing-pre-trained-models)
-- [Other Resources](#other-resources)
+- [Chapter 3: Neural Methods for Semantic Retrieval](#neural-methods-for-semantic-retrieval)
+  - [Sparse Retrieval Methods](#sparse-retrieval-methods)
+  - [Dense Retrieval Methods](#dense-retrieval-methods)
+  - [Hybrid of Sparse-dense Retrieval Methods](#hybrid-of-sparse-dense-retrieval-methods)
+- [Chapter 4: Other Resources](#other-resources)
+  - [Other Tasks](#other-tasks)
+  - [Datasets](#datasets)
+  - [Index](#index)
 
 
 
@@ -21,6 +24,7 @@
 ## Survey Paper
 
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) 
+
 
 
 ## Classical Term-based Retrieval
@@ -100,8 +104,6 @@
 
 
 
-
-
 ## Neural Methods for Semantic Retrieval
 #### Sparse Retrieval Methods
 
@@ -167,8 +169,7 @@
 -  【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
--  【DESM】A Dual Embedding Space Model for Document Ranking（2016）
-=======
+- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
 - 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
@@ -179,8 +180,6 @@
 - 【Hybrid】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
 - 【CLEAR】Complementing lexical retrieval with semantic residual embedding.（2020，线性加权结合BM25和bert-based model）
 - Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach（2020）
-
-
 
 
 
