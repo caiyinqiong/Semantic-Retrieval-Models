@@ -70,7 +70,11 @@
 
 - [ ] HAR（WWW，2019）A Hierarchical Attention Retrieval Model for Healthcare Question Answering
 - [x] RE2（2019）：Simple and Effective Text Matching with Richer Alignment Features
-- [x] MMN（SIGIR2019）：Multi-level Matching Networks for Text Matching
+- [x] MMN（SIGIR，2019）：Multi-level Matching Networks for Text Matching
+- [x] （EMNLP2019）MICRON: Multigranular Interaction for Contextualizing RepresentatiON in Non-factoid Question Answering
+- [x] GSAMN（EMNLP，2019）A Gated Self-attention Memory Network for Answer Selection
+- [x] HCAN（EMNLP，2019）Bridging the Gap between Relevance Matching and Semantic Matching for Short Text Similarity Modeling
+- [x] ADIN（EMNLP，2019）Asynchronous Deep Interaction Network for Natural Language Inference
 
 ##### 2020
 
