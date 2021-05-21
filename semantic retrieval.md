@@ -1,28 +1,14 @@
 <div align='center' ><font size='70'>Semantic Retrieval</font></div>
 
-## Table of Contents
-
-- [Survey Paper](#Survey Paper)
-- [Chapter 1: Classical Term-based Retrieval](#Classical Term-based Retrieval)
-- [Chapter 2: Early Methods for Semantic Retrieval](#Early Methods for Semantic Retrieval)
-  - [Query Expansion](#Query Expansion)
-  - [Term Dependency Model](#Term Dependency Model)
-  - [Topic Model](#Topic Model)
-  - [Translation Model](#Translation Model)
-- [Chapter3: Neural Methods for Semantic Retrieval](#Neural Methods for Semantic Retrieval)
-  - [Sparse Retrieval Methods](#Sparse Retrieval Methods)
-  - [Dense Retrieval Methods](#Dense Retrieval Methods)
-  - [Hybrid of Sparse-dense Retrieval Methods](#Hybrid of Sparse-dense Retrieval Methods)
-- [Chapter4: Other Resources](#Other Resources)
-  - [Other Tasks(e.g., recommendation)](#Other Tasks)
-  - [Datasets](#Datasets)
-  - [Index](#Index)
+[TOC]
 
 
 
 ## Survey Paper
 
-- [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Yinqiong Cai et.al.*
+- [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) 
+
+
 
 
 
@@ -44,12 +30,8 @@
 
 
 ## Early Methods for Semantic Retrieval
-- [Query Expansion](#Query Expansion)
-- [Term Dependency Model](#Term Dependency Model)
-- [Topic Model](#Topic Model)
-- [Translation Model](#Translation Model)
 
-### Query Expansion
+#### Query Expansion
 
 - Global methods expand or reformulate query words by analyzing the word co-occurrences from the corpus being searched or using hand-crafted thesaurus
 
@@ -79,7 +61,7 @@
 
 - Reducing the risk of query expansion via robust constrained optimization（2009，基于伪相关反馈的查询扩展容易遭受query drift的问题）
 
-### Term Dependency Model
+#### Term Dependency Model
 
 - 【VSM + term dependency】
   - Experiments in automatic phrase indexing for document retrieval: A comparison of syntactic and non-syntactic methods（1987）
@@ -99,7 +81,7 @@
 - A generative theory of relevance（2004）
 - 【SDM】A Markov random ﬁeld model for term dependencies（2005）
 
-### Topic Model
+#### Topic Model
 
 - 【GVSM】Generalized vector spaces model in information retrieval.（1985）
 
@@ -127,7 +109,7 @@
 
 - Latent semantic indexing (lsi) fails for trec collections（2011）
 
-### Translation Model
+#### Translation Model
 
 - Information retrieval as statistical translation.（1999）
 - Estimation of statistical translation models based on mutual information for ad hoc information retrieval.（2010）
@@ -136,12 +118,10 @@
 
 
 
-## Neural Methods for Semantic Retrieval
-- [Sparse Retrieval Methods](#Sparse Retrieval Methods)
-- [Dense Retrieval Methods](#Dense Retrieval Methods)
-- [Hybrid of Sparse-dense Retrieval Methods](#Hybrid of Sparse-dense Retrieval Methods)
 
-### Sparse Retrieval Methods
+
+## Neural Methods for Semantic Retrieval
+#### Sparse Retrieval Methods
 
 - 【DeepTR】Learning to reweight terms with distributed representations（2015）
 - 【NTLM】Integrating and evaluating neural word embeddings in information retrieval（2015）
@@ -160,7 +140,7 @@
 - 【SNRM】From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing（CIKM2018）
 - UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking（2021）
 
-### Dense Retrieval Methods
+#### Dense Retrieval Methods
 
 - 【FV】Aggregating continuous word embeddings for information retrieval（2013）
 -  Short Text Similarity with Word Embeddings（CIKM2015）
@@ -201,7 +181,7 @@
   - Embedding-based Zero-shot Retrieval through Query Generation（query生成）
   - Zero-shot neural retrieval via domain-targeted synthetic query generation.（2020，query生成）
 
-### Hybrid of Sparse-dense Retrieval Methods
+#### Hybrid of Sparse-dense Retrieval Methods
 
 - Monolingual and cross-lingual information retrieval models based on (bilingual) word embeddings.（2015）
 
@@ -219,12 +199,10 @@
 
 
 
-## Other Resources
-- [Other Tasks(e.g., recommendation)](#Other Tasks)
-- [Datasets](#Datasets)
-- [Index](#Index)
 
-### Other Tasks
+
+## Other Resources
+#### Other Tasks
 
 - Embedding-based Retrieval in Facebook Search（KDD2020）
 - K-way D-dimensional Discrete Codes for Compact Embedding Representations
@@ -237,17 +215,16 @@
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
 
 
-
 - Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
 - Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
 - Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
 
-### Datasets
+#### Datasets
 
 - 【TREC CAR】TREC Complex Answer Retrieval Overview
 - 【MS MARCO】A human-generated machine reading comprehension datase
 
-### Index
+#### Index
 
 - 基于树的方法
   - 【KD树】Multidimensional binary search trees used for associative searching（1975）
@@ -258,6 +235,7 @@
 - 基于图的方法
   - 【NSW】Navigation in a small world
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
-
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
+
+
