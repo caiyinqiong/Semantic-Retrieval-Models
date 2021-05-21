@@ -1,7 +1,5 @@
 <div align='center' ><font size='70'>Semantic Retrieval</font></div>
 
-<p align="center" style="font-size:200%"><br>Semantic Retrieval<br></p>
-
 
 
 ## Table of Contents
