@@ -1,14 +1,26 @@
 <div align='center' ><font size='70'>Semantic Retrieval</font></div>
 
-[TOC]
+## Table of Contents
+- [Survey paper](#survey-paper)
+- [Chapter 1: Classical Term-based Retrieval](#classical-term-based-etrieval)
+- [Chapter 2: Early Methods for Semantic Retrieval](#early-methods-for-semantic-retrieval)
+  - [Query Expansion](#query-expansion)
+  - [Term Dependency Model](#term-dependency-model)
+  - [Topic Model](#topic-model)
+  - [Translation Model](#translation-model)
+- [Phase 2: Re-ranking stage](#re-ranking-stage)
+  - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
+  - [Design new pre-training tasks for reranking](#design-new-pre-training-tasks-for-reranking)
+  - [Modify on top of the existing pre-trained models](#modify-on-top-of-the-existing-pre-trained-models)
+- [Other Resources](#other-resources)
+
+
+
+
 
 ## Survey Paper
 
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) 
-
-
-
-
 
 
 ## Classical Term-based Retrieval
