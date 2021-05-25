@@ -110,48 +110,58 @@
 ## Neural Methods for Semantic Retrieval
 #### Sparse Retrieval Methods
 
-- 【DeepTR】Learning to reweight terms with distributed representations（2015）
-- 【NTLM】Integrating and evaluating neural word embeddings in information retrieval（2015）
-- 【TVD】Learning Term Discrimination（SIGIR2020）
-- 【DeepCT】Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval（arxiv2019）
-- 【DeepCT】Context-Aware Term Weighting For First-Stage Passage Retrieval（SIGIR2020）
-- 【DeepCT】Efficiency Implications of Term Weighting for Passage Retrieval（SIGIR2020）
-- 【HDCT】Context-Aware Document Term Weighting for Ad-Hoc Search（WWW2020）
-- 【GAR】Generation-augmented retrieval for open-domain question answering（2020，查询扩展）
-- 【Doc2Query】Document Expansion by query Prediction.（2019）
-- 【DocTTTTTQuery】From doc2query to docTTTTTquery（2019）
-- SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval（2020）
-- SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking（SIGIR2021）
-- Learning Passage Impacts for Inverted Indexes（SIGIR2021）
-- Semantic hashing（2009）
-- 【SNRM】From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing（CIKM2018）
-- UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking（2021）
+- term re-weighting
+  - 【DeepTR】Learning to reweight terms with distributed representations（2015）
+  - 【NTLM】Integrating and evaluating neural word embeddings in information retrieval（2015）
+  - 【TVD】Learning Term Discrimination（SIGIR2020）
+  - 【DeepCT】Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval（arxiv2019）
+  - 【DeepCT】Context-Aware Term Weighting For First-Stage Passage Retrieval（SIGIR2020）
+  - 【DeepCT】Efficiency Implications of Term Weighting for Passage Retrieval（SIGIR2020）
+  - 【HDCT】Context-Aware Document Term Weighting for Ad-Hoc Search（WWW2020）
+
+- expansion
+  - 【GAR】Generation-augmented retrieval for open-domain question answering（2020，查询扩展）
+  - 【Doc2Query】Document Expansion by query Prediction.（2019）
+  - 【DocTTTTTQuery】From doc2query to docTTTTTquery（2019）
+  - 【UED】A Unified Pretraining Framework for Passage Ranking and Expansion（AAAI2021）
+- expansion + term re-weighting
+  - SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval（2020）
+  - SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking（SIGIR2021）
+  - Learning Passage Impacts for Inverted Indexes（SIGIR2021）
+- sparse representation
+  - Semantic hashing（2009）
+  - 【SNRM】From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing（CIKM2018）
+  - UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking（2021）
 
 #### Dense Retrieval Methods
 
-- 【FV】Aggregating continuous word embeddings for information retrieval（2013）
-- Short Text Similarity with Word Embeddings（CIKM2015）
-- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
-- Efficient natural language response suggestion for smart reply（2017）
+- word embedding based
+  - 【FV】Aggregating continuous word embeddings for information retrieval（2013）
+  - Short Text Similarity with Word Embeddings（CIKM2015）
+  - 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
+  - Efficient natural language response suggestion for smart reply（2017）
+  - End-to-end retrieval in continuous space（2018）
 - 【PIQA】Phrase indexed question answering: A new challenge for scalable document comprehension.（EMNLP2018）
-- End-to-end retrieval in continuous space（2018）
-- 【MUPPET】Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（ACL2019）
-- 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
 - 【DPR】Dense Passage Retrieval for Open-Domain Question Answering（2020）
 - 【RepBERT】RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020）
 - 【DC-BERT】DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020）
-- 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
-- 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
 - 【ANCE】Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
 - 【RocketQA】An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering
-- 【TCT-ColBERT】Distilling Dense Representations for Ranking using Tightly-Coupled Teachers
-- Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
-- Learning to Retrieve：how to train a dense retrieval model effectively and efficiently
+- 【LTRe】Learning to Retrieve：how to train a dense retrieval model effectively and efficiently
 - Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling（SIGIR2021）
 - Optimizing Dense Retrieval Model Training with Hard Negatives（SIGIR2021）
 - Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index（SIGIR2021）
-- Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（2021）
-- COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）
+- 【DensePhrases】Learning Dense Representations of Phrases at Scale（2021）
+- 蒸馏
+  - 【TCT-ColBERT】Distilling Dense Representations for Ranking using Tightly-Coupled Teachers
+  - Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
+- 多表达
+  - 【MUPPET】Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（ACL2019）
+  - 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
+  - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
+  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（2021）
+  - 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
+  - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）
 - 加速
   - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
   - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（WWW2019）
@@ -172,7 +182,7 @@
 -  【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
-- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
+- 【DESM_mixture】A Dual Embedding Space Model for Document Ranking（2016）
 - 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
