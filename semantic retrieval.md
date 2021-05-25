@@ -181,12 +181,11 @@
 - Monolingual and cross-lingual information retrieval models based on (bilingual) word embeddings.（2015）
 -  【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
-- Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
-- 【DESM_mixture】A Dual Embedding Space Model for Document Ranking（2016）
 - 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
-- 【DESM】A Dual Embedding Space Model for Document Ranking（2016）
+- 【DESM_mixture】A Dual Embedding Space Model for Document Ranking（2016）
+- Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
 - 【DenSPI】Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index（ACL2019）
 - 【SPARC】Contextualized Sparse Representations for Real-Time Open-Domain Question Answering（ACL2020）
 - 【EPIC】Expansion via Prediction of Importance with Contextualization（SIGIR2020）
