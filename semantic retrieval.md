@@ -159,9 +159,9 @@
   - 【MUPPET】Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（ACL2019）
   - 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
   - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
-  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（2021）
   - 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
   - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）
+  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（ACL2021）
 - 加速
   - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
   - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（WWW2019）
@@ -202,9 +202,9 @@
 - Embedding-based Retrieval in Facebook Search（KDD2020）
 - K-way D-dimensional Discrete Codes for Compact Embedding Representations
 - Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations
-- From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search（SIGIR2019）
-- 【DPSR】Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning（SIGIR2020）
-- MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search（百度，凤巢）
+- From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search（SIGIR2019，京东）
+- 【DPSR】Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning（SIGIR2020，京东）
+- MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search（百度凤巢）
 - 【DIN】Deep interest network for click-through rate prediction
 - 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，天猫）
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
@@ -221,10 +221,18 @@
   - 【KD树】Multidimensional binary search trees used for associative searching（1975）
 - 哈希方法
   - 【LSH】Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998）
+  - Asymmetric LSH for sublinear time maximum inner product search（2014）
 - 矢量量化方法
   - 【PQ】Product quantization for nearest neighbor search（2010）
+  - 【OPQ】Optimized product quantization
+  - Additive quantization for extreme vector compression（2014）
+  - Composite quantization for approximate nearest neighbor search（2014）
+  - Tree quantization for large-scale similarity search and classification（2015）
 - 基于图的方法
+  - Scalable k-NN graph construction for visual descriptors（2012）
   - 【NSW】Navigation in a small world
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
+  - ElasticSearch
+  - SPTAG
