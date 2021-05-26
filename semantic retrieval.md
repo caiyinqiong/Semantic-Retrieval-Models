@@ -155,6 +155,8 @@
 - 蒸馏
   - 【TCT-ColBERT】Distilling Dense Representations for Ranking using Tightly-Coupled Teachers
   - Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
+  - Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation
+  - Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation
 - 多表达
   - 【MUPPET】Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（ACL2019）
   - 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
@@ -175,6 +177,7 @@
   - Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
   - Embedding-based Zero-shot Retrieval through Query Generation（query生成）
   - Zero-shot neural retrieval via domain-targeted synthetic query generation.（2020，query生成）
+  - Towards Robust Neural Retrieval Models with Synthetic Pre-Training（query生成）
 
 #### Hybrid of Sparse-dense Retrieval Methods
 
