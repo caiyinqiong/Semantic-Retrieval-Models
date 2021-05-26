@@ -123,15 +123,15 @@
   - 【GAR】Generation-augmented retrieval for open-domain question answering（2020，查询扩展）
   - 【Doc2Query】Document Expansion by query Prediction.（2019）
   - 【DocTTTTTQuery】From doc2query to docTTTTTquery（2019）
-  - 【UED】A Unified Pretraining Framework for Passage Ranking and Expansion（AAAI2021）
+  - 【UED】A Unified Pretraining Framework for Passage Ranking and Expansion（AAAI2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - expansion + term re-weighting
   - SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval（2020）
-  - SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking（SIGIR2021）
-  - Learning Passage Impacts for Inverted Indexes（SIGIR2021）
+  - SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - Learning Passage Impacts for Inverted Indexes（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - sparse representation
   - Semantic hashing（2009）
   - 【SNRM】From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing（CIKM2018）
-  - UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking（2021）
+  - UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 #### Dense Retrieval Methods
 
@@ -148,10 +148,10 @@
 - 【ANCE】Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
 - 【RocketQA】An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering
 - 【LTRe】Learning to Retrieve：how to train a dense retrieval model effectively and efficiently
-- Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling（SIGIR2021）
-- Optimizing Dense Retrieval Model Training with Hard Negatives（SIGIR2021）
-- Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index（SIGIR2021）
-- 【DensePhrases】Learning Dense Representations of Phrases at Scale（2021）
+- Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- Optimizing Dense Retrieval Model Training with Hard Negatives（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- 【DensePhrases】Learning Dense Representations of Phrases at Scale（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - 蒸馏
   - 【TCT-ColBERT】Distilling Dense Representations for Ranking using Tightly-Coupled Teachers
   - Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
@@ -160,8 +160,8 @@
   - 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
   - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
   - 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
-  - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）
-  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（ACL2021）
+  - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（ACL2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - 加速
   - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
   - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（WWW2019）
