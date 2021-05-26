@@ -8,7 +8,7 @@
 >
 > - A curated list of awesome papers for the **Semantic Retrieval**, including some early methods and recent neural models.
 > - For people who want to acquire semantic models for re-ranking stage, we refer readers to the awesome NeuIR survey by *[Guo et.al](https://arxiv.org/abs/1903.06902)*.
-> - Any feedback and contribution are welcome, please open an issue or [contact me](caiyinqiong18s@ict.ac.cn).
+> - Any feedback and contribution are welcome, please open an issue or [contact me](mailto:caiyinqiong18s@ict.ac.cn).
 
 ## Contents
 
@@ -43,14 +43,14 @@
 - 【VSM】A vector space model for automatic indexing（1975）
 - 【TFIDF】Developments in automatic text retrieval（1991）
 - 【TFIDF】Term-weighting approaches in automatic text retrieval.（1988）
-- 【Binary Independence Model】Relevance weighting of search terms（1976）
-- 【概率模型】Relevance weighting of search terms（1977）、Probabilistic models of  indexing and searching（1981）、The uniﬁed probabilistic model for ir（1983）、Efﬁcient probabilistic inference for text retrieval（1991）、Some simple effective approximations to the 2-poisson model for probabilistic weighted retrieval（1994）、The Probability Ranking Principle in IR（1997，提出概率排序准则）、The uniﬁed model revisited（2003）、A new uniﬁed probabilistic model（2004）
+- 【BIM】Relevance weighting of search terms（1976）
+- 【Probabilistic Model】Relevance weighting of search terms（1977）、Probabilistic models of  indexing and searching（1981）、The uniﬁed probabilistic model for ir（1983）、Efﬁcient probabilistic inference for text retrieval（1991）、Some simple effective approximations to the 2-poisson model for probabilistic weighted retrieval（1994）、The Probability Ranking Principle in IR（1997，propose Probability Ranking Principle）、The uniﬁed model revisited（2003）、A new uniﬁed probabilistic model（2004）
 - 【Tree Dependence Model】A theoretical basis for the use of co-occurrence data in information retrieval
 - 【BM25】The probabilistic relevance framework: BM25 and beyond（2010）
 - 【DFR, Divergence from Randomness】Probabilistic models of information retrieval based on measuring the divergence from randomness（2002，随即距离模型）
-- 【语言模型/QL】A language modeling approach to information retrieval（1998）
-- 【语言模型】Statistical language models for information retrieval a critical review（zhai,2007）
-- 【语言模型】Hypergeometric language model and Zipf-like scoring function for web document similarity retrieval（2010）
+- 【Language Model/QL】A language modeling approach to information retrieval（1998）
+- 【Language Model】Statistical language models for information retrieval a critical review（zhai,2007）
+- 【Language Model】Hypergeometric language model and Zipf-like scoring function for web document similarity retrieval（2010）
 
 
 
