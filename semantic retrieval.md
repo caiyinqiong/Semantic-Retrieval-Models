@@ -207,6 +207,7 @@
 - 【DIN】Deep interest network for click-through rate prediction
 - 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，天猫）
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
+- Few-Shot Conversational Dense Retrieval（SIGIR2021，对话）
 -  Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
 -  Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
 -  Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
