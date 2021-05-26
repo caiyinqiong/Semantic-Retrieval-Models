@@ -65,13 +65,13 @@
 - 【RM3】Relevance based language models（2001）
 - Model-based feedback in the language modeling approach to information retrieval.（2001）
 - Query expansion using local and global document analysis.
-- 【伪相关反馈】Query expansion using lexical-semantic relations.（1994）
-- 【伪相关反馈】Selecting good expansion terms for pseudo-relevance feedback.（2008）
-- 【Rocchio伪相关反馈】Relevance Feedback in Information Retrieval（1971）
+- 【PRF】Query expansion using lexical-semantic relations.（1994）
+- 【PRF】Selecting good expansion terms for pseudo-relevance feedback.（2008）
+- 【Rocchio PRF】Relevance Feedback in Information Retrieval（1971）
 - Search Engines: Information Retrieval in Practice.（2009）
 - A comparative study of methods for estimating query language models with pseudo feedback.（2009）
 - Pseudo-relevance feedback based on matrix factorization（2016）
-- Reducing the risk of query expansion via robust constrained optimization（2009，基于伪相关反馈的查询扩展容易遭受query drift的问题）
+- Reducing the risk of query expansion via robust constrained optimization（2009，query drift problem）
 
 #### Term Dependency Model
 
@@ -100,9 +100,9 @@
 - 【LDA】Latent dirichlet allocation（2003）
 - Supervised topic models.（2007）
 - Investigating task performance of probabilistic topic models: an empirical study of PLSA and LDA.（2010）
-- Corpus structure, language models, and ad hoc information retrieval.（2004，topic 模型用于平滑项）
-- Regularizing ad hoc retrieval scores（2005，topic 模型用于平滑项）
-- Lda-based document models for ad-hoc retrieval.（2006，LDA for IR 和 LDA用于LM的平滑）
+- Corpus structure, language models, and ad hoc information retrieval.（2004，topic model for smoothing)
+- Regularizing ad hoc retrieval scores（2005，topic model for smoothing）
+- Lda-based document models for ad-hoc retrieval.（2006，LDA for IR and LDA for LM smoothing）
 - A comparative study of utilizing topic models for information retrieval.（2009）
 - Latent semantic indexing (lsi) fails for trec collections（2011）
 
@@ -128,7 +128,7 @@
   - 【HDCT】Context-Aware Document Term Weighting for Ad-Hoc Search（WWW2020）
 
 - expansion
-  - 【GAR】Generation-augmented retrieval for open-domain question answering（2020，查询扩展）
+  - 【GAR】Generation-augmented retrieval for open-domain question answering（2020，query expansion）
   - 【Doc2Query】Document Expansion by query Prediction.（2019）
   - 【DocTTTTTQuery】From doc2query to docTTTTTquery（2019）
   - 【UED】A Unified Pretraining Framework for Passage Ranking and Expansion（AAAI2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
@@ -161,32 +161,32 @@
 - Optimizing Dense Retrieval Model Training with Hard Negatives（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index（SIGIR2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - 【DensePhrases】Learning Dense Representations of Phrases at Scale（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- 蒸馏
+- knowledge distillation
   - 【TCT-ColBERT】Distilling Dense Representations for Ranking using Tightly-Coupled Teachers
   - Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
   - Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation
-  - Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation
-- 多表达
+  - Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation（2021，Margin-MSE loss）
+- multi-vector representation 
   - 【MUPPET】Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（ACL2019）
   - 【Poly-encoders】Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（ICLR2020）
   - 【ME-BERT】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
   - 【ColBERT】ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（SIGIR2020）
   - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（ACL2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- 加速
+- accelerate interaction-based models
   - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
   - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（WWW2019）
   - 【PreTTR】Efficient Document Re-Ranking for Transformers by Precomputing Term Representations（SIGIR2020）
   - 【DeFormer】DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering（ACL2020）
   - SPARTA: Efﬁcient Open-Domain Question Answering via Sparse Transformer Matching Retrieval
   - Conformer-kernel with query term independence for document retrieval（2020）
-- 预训练
-  - 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019
+- pre-training
+  - 【ORQA】Latent Retrieval for Weakly Supervised Open Domain Question Answering（ACL2019）
   - 【REALM】 Retrieval-Augmented Language Model Pre-Training（2020）
   - Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
-  - Embedding-based Zero-shot Retrieval through Query Generation（query生成）
-  - Zero-shot neural retrieval via domain-targeted synthetic query generation.（2020，query生成）
-  - Towards Robust Neural Retrieval Models with Synthetic Pre-Training（query生成）
+  - Embedding-based Zero-shot Retrieval through Query Generation（query generation）
+  - Zero-shot neural retrieval via domain-targeted synthetic query generation.（2020，query generation）
+  - Towards Robust Neural Retrieval Models with Synthetic Pre-Training（query generation）
 
 #### Hybrid of Sparse-dense Retrieval Methods
 
@@ -196,14 +196,14 @@
 - 【GLM】 Word embedding based generalized language model for information retrieval.（2015）
 - 【BOW-CNN】Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
-- 【DESM_mixture】A Dual Embedding Space Model for Document Ranking（2016）
+- 【DESM_mixture】A Dual Embedding Space Model for Document Ranking（2016，linear weighting for combination）
 - Representing documents and queries as sets of word embedded vectors for information retrieval.（2016）
 - 【DenSPI】Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index（ACL2019）
 - 【SPARC】Contextualized Sparse Representations for Real-Time Open-Domain Question Answering（ACL2020）
 - 【EPIC】Expansion via Prediction of Importance with Contextualization（SIGIR2020）
 - 【Hybrid】Sparse, Dense, and Attentional Representations for Text Retrieval（2020）
-- 【CLEAR】Complementing lexical retrieval with semantic residual embedding.（2020，线性加权结合BM25和bert-based model）
-- Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach（2020）
+- 【CLEAR】Complementing lexical retrieval with semantic residual embedding.（2020，linear weighting for combination）
+- Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach（2020，use RM3 for combination）
 
 
 
@@ -213,13 +213,13 @@
 - Embedding-based Retrieval in Facebook Search（KDD2020）
 - K-way D-dimensional Discrete Codes for Compact Embedding Representations
 - Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations
-- From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search（SIGIR2019，京东）
-- 【DPSR】Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning（SIGIR2020，京东）
-- MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search（百度凤巢）
+- From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search（SIGIR2019，Jingdong）
+- 【DPSR】Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning（SIGIR2020，Jingdong）
+- MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search（Baidu）
 - 【DIN】Deep interest network for click-through rate prediction
-- 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，天猫）
+- 【MIND】Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019，Tmall）
 - 【DMIN】Deep Multi-Interest Network for Click-through Rate Prediction（CIKM2020）
-- Few-Shot Conversational Dense Retrieval（SIGIR2021，对话）
+- Few-Shot Conversational Dense Retrieval（SIGIR2021，dialogue）
 -  Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019，workshop）
 -  Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects.（SIGIR2019）
 -  Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016CIKM）
@@ -229,22 +229,24 @@
 - 【MS MARCO】A human-generated machine reading comprehension datase
 
 #### Index
-- 基于树的方法
-  - 【KD树】Multidimensional binary search trees used for associative searching（1975）
-- 哈希方法
+- Tree-based
+  - 【KD tree】Multidimensional binary search trees used for associative searching（1975）
+- Hashing-based
   - 【LSH】Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998）
   - Asymmetric LSH for sublinear time maximum inner product search（2014）
-- 矢量量化方法
+- Quantization-based
   - 【PQ】Product quantization for nearest neighbor search（2010）
   - 【OPQ】Optimized product quantization
   - Additive quantization for extreme vector compression（2014）
   - Composite quantization for approximate nearest neighbor search（2014）
   - Tree quantization for large-scale similarity search and classification（2015）
-- 基于图的方法
+- Graph-based
   - Scalable k-NN graph construction for visual descriptors（2012）
   - 【NSW】Navigation in a small world
   - 【HNSW】Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs
 - Toolkits
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
-  - ElasticSearch
-  - SPTAG
+  - [ElasticSearch](https://github.com/elastic/elasticsearch)
+  - [SPTAG: A library for fast approximate nearest neighbor search](https://github.com/microsoft/SPTAG)
+  - [OpenMatch: An Open-Source Package for Information Retrieval](https://github.com/thunlp/OpenMatch)
+
