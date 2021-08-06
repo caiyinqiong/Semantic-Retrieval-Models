@@ -126,7 +126,7 @@
   - 【DeepCT】**Context-Aware Term Weighting For First-Stage Passage Retrieval**（SIGIR2020）
   - 【DeepCT】**Efficiency Implications of Term Weighting for Passage Retrieval**（SIGIR2020）
   - 【HDCT】**Context-Aware Document Term Weighting for Ad-Hoc Search**（WWW2020）
-- 【uniCOIL】**A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques**（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - 【uniCOIL】**A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques**（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   
 - **Expansion**
   - 【GAR】**Generation-augmented retrieval for open-domain question answering**（2020，query expansion）
