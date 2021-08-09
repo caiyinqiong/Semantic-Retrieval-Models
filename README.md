@@ -23,7 +23,7 @@
 - [Chapter 3: Neural Methods for Semantic Retrieval](#neural-methods-for-semantic-retrieval)
   - [Sparse Retrieval Methods](#sparse-retrieval-methods)
   - [Dense Retrieval Methods](#dense-retrieval-methods)
-  - [Hybrid of Sparse-dense Retrieval Methods](#hybrid-of-sparse-dense-retrieval-methods)
+  - [Hybrid Retrieval Methods](#hybrid-retrieval-methods)
 - [Chapter 4: Other Resources](#other-resources)
   - [Other Tasks](#other-tasks)
   - [Datasets](#datasets)
@@ -35,7 +35,8 @@
 
 ## Survey Paper
 
-- [Semantic Models for the First-stage Retrieval: A Comprehensive Review](https://arxiv.org/pdf/2103.04831.pdf) (Cai et.al., 2021, Arxiv)
+- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467)（Lin et al., 2021, arXiv）
+- [Semantic Models for the First-stage Retrieval: A Comprehensive Review](https://arxiv.org/pdf/2103.04831.pdf) (Cai et al., 2021, arXiv)
 
 
 
@@ -124,101 +125,100 @@
 ### Sparse Retrieval Methods
 
 - **Term Re-weighting**
-  - [Learning to reweight terms with distributed representations](https://dl.acm.org/doi/pdf/10.1145/2766462.2767700)（Zheng et.al., 2015, SIGIR, **DeepTR**）
-  - [Integrating and evaluating neural word embeddings in information retrieval](https://dl.acm.org/doi/pdf/10.1145/2838931.2838936)（Zuccon et.al., 2015, ADCS, **NTLM**）
-  - [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211)（Frej et.al, 2020, SIGIR, **TVD**）
-  - [Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval](https://arxiv.org/pdf/1910.10687.pdf)（Dai et.al., 2019, arXiv, **DeepCT**）
-  - [Context-Aware Term Weighting For First-Stage Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204)（Dai et.al., 2020, SIGIR, **DeepCT**）
-  - [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263)（Mackenzie et.al., 2020, SIGIR, **DeepCT**）
-  - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258)（Dai et.al., 2020, WWW, **HDCT**）
-  - [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf)（Lin et.al., 2021, arXiv, **uniCOIL**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Learning to Reweight Terms with Distributed Representations](https://dl.acm.org/doi/pdf/10.1145/2766462.2767700)（Zheng et al., 2015, SIGIR, **DeepTR**）
+  - [Integrating and Evaluating Neural Word Embeddings in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2838931.2838936)（Zuccon et al., 2015, ADCS, **NTLM**）
+  - [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211)（Frej et al, 2020, SIGIR, **TVD**）
+  - [Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval](https://arxiv.org/pdf/1910.10687.pdf)（Dai et al., 2019, arXiv, **DeepCT**）
+  - [Context-Aware Term Weighting For First-Stage Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204)（Dai et al., 2020, SIGIR, **DeepCT**）
+  - [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263)（Mackenzie et al., 2020, SIGIR, **DeepCT**）
+  - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258)（Dai et al., 2020, WWW, **HDCT**）
+  - [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf)（Lin et al., 2021, arXiv, **uniCOIL**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   
 - **Expansion**
-  - [Generation-augmented retrieval for open-domain question answering](https://aclanthology.org/2021.acl-long.316.pdf)（Mao et.al., 2020, ACL, **GAR**, query expansion）
-  - [Document Expansion by query Prediction](https://arxiv.org/pdf/1904.08375.pdf)（Nogueira et.al., 2019, arXiv, **Doc2Query**）
-  - [From doc2query to docTTTTTquery](https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf)（Nogueira et.al., 2019, arXiv, **DocTTTTTQuery**）
-  - [A Unified Pretraining Framework for Passage Ranking and Expansion](https://ojs.aaai.org/index.php/AAAI/article/view/16584)（Yan et.al., 2021, AAAI, **UED**）
+  - [Generation-augmented Retrieval for Open-domain Question Answering](https://aclanthology.org/2021.acl-long.316.pdf)（Mao et al., 2020, ACL, **GAR**, query expansion）
+  - [Document Expansion by query Prediction](https://arxiv.org/pdf/1904.08375.pdf)（Nogueira et al., 2019, arXiv, **Doc2Query**）
+  - [From doc2query to docTTTTTquery](https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf)（Nogueira et al., 2019, arXiv, **DocTTTTTQuery**）
+  - [A Unified Pretraining Framework for Passage Ranking and Expansion](https://ojs.aaai.org/index.php/AAAI/article/view/16584)（Yan et al., 2021, AAAI, **UED**）
 - **Expansion + Term Re-weighting**
-  - [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval](https://arxiv.org/pdf/2010.00768.pdf)（Bai et.al., 2020, arXiv, **SparTerm**）
-  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://dl.acm.org/doi/pdf/10.1145/3404835.3463098)（Formal et.al., 2021, SIGIR, **SPLADE**）
-  - [Learning Passage Impacts for Inverted Indexes](https://dl.acm.org/doi/pdf/10.1145/3404835.3463030)（Mallia et.al., 2021, SIGIR, **DeepImapct**）
-- **Sparse Representation**
-  - [Semantic hashing](https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324)（Salakhutdinov et.al., 2009）
-  - [From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing](https://dl.acm.org/doi/pdf/10.1145/3269206.3271800)（Zamani et.al., 2018, CIKM, **SNRM**）
-  - [UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking](https://arxiv.org/pdf/2104.07198.pdf)（Jang et.al., 2021, arXiv, **UHD-BERT**）
-  - [Efﬁcient Passage Retrieval with Hashing for Open-domain Question Answering](https://arxiv.org/pdf/2106.00882.pdf)（Yamada et.al., 2021, ACL, **BPR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval](https://arxiv.org/pdf/2010.00768.pdf)（Bai et al., 2020, arXiv, **SparTerm**）
+  - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://dl.acm.org/doi/pdf/10.1145/3404835.3463098)（Formal et al., 2021, SIGIR, **SPLADE**）
+  - [Learning Passage Impacts for Inverted Indexes](https://dl.acm.org/doi/pdf/10.1145/3404835.3463030)（Mallia et al., 2021, SIGIR, **DeepImapct**）
+- **Sparse Representation Learning**
+  - [Semantic Hashing](https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324)（Salakhutdinov et al., 2009）
+  - [From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing](https://dl.acm.org/doi/pdf/10.1145/3269206.3271800)（Zamani et al., 2018, CIKM, **SNRM**）
+  - [UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking](https://arxiv.org/pdf/2104.07198.pdf)（Jang et al., 2021, arXiv, **UHD-BERT**）
+  - [Efﬁcient Passage Retrieval with Hashing for Open-domain Question Answering](https://arxiv.org/pdf/2106.00882.pdf)（Yamada et al., 2021, ACL, **BPR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 ### Dense Retrieval Methods
 
-- **Word-embedding-based**
-  - Aggregating continuous word embeddings for information retrieval（2013, **FV**）
-  - Short Text Similarity with Word Embeddings（2015, CIKM）
-  - A Dual Embedding Space Model for Document Ranking（2016, **DESM**）
-  - Efficient natural language response suggestion for smart reply（2017）
-  - End-to-end retrieval in continuous space（2018）
-- Phrase indexed question answering: A new challenge for scalable document comprehension（2018, EMNLP, **PIQA**）
-- CoRT: Complementary Rankings from Transformers（2019, ICTIR, **CoRT**）
-- Dense Passage Retrieval for Open-Domain Question Answering（2020, **DPR**）
-- RepBERT: CONTEXTUALIZED TEXT EMBEDDINGS FOR FIRST-STAGE RETRIEVAL（2020, arXiv, **RepBERT**）
-- DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding（2020, **DC-BERT**）
-- Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation
-- Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval（**ANCE**）
-- An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering（**RocketQA**）
-- Learning to Retrieve：how to train a dense retrieval model effectively and efficiently（**LTRe**）
-- Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling（2021, SIGIR）
-- Optimizing Dense Retrieval Model Training with Hard Negatives（2021, SIGIR, **STAR/ADORE**）
-- Learning Dense Representations of Phrases at Scale（2021, **DensePhrases**）
-- More Robust Dense Retrieval with Contrastive Dual Learning（**DANCE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval（2021, ACL, **PAIR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- Relevance-guided Supervision for OpenQA with ColBERT（2021, **ColBERT-QA**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- Distilling Knowledge from Reader to Retriever for Question Answering<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- **Word-Embedding-based**
+  - [Aggregating Continuous Word Embeddings for Information Retrieval](https://aclanthology.org/W13-3212.pdf)（Clinchant et al., 2013, ACL, **FV**）
+  - [Short Text Similarity with Word Embeddings](https://dl.acm.org/doi/pdf/10.1145/2806416.2806475)（Kenter et al., 2015, CIKM, **OoB**）
+  - [A Dual Embedding Space Model for Document Ranking](https://arxiv.org/pdf/1602.01137.pdf)（Mitra et al., 2016, arXiv, **DESM**）
+  - [Efficient Natural Language Response Suggestion for Smart Reply](https://arxiv.org/pdf/1705.00652.pdf)（Henderson et al., 2017, arXiv）
+  - [End-to-End Retrieval in Continuous Space](https://arxiv.org/pdf/1811.08008.pdf)（Gillick et al., 2018, arXiv）
+- [Phrase-Indexed Question Answering: A New Challenge for Scalable Document Comprehension](https://arxiv.org/pdf/1804.07726.pdf)（Seo et al., 2018, EMNLP, **PIQA**）
+- [CoRT: Complementary Rankings from Transformers](https://aclanthology.org/2021.naacl-main.331.pdf)（Wrzalik et al., 2019, NAACL, **CoRT**）
+- [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/2004.04906.pdf)（Karpukhin et al., 2020, EMNLP, **DPR**）
+- [RepBERT: Contextualized Text Embeddings for First-Stage Retrieval](https://arxiv.org/pdf/2006.15498.pdf)（Zhan et al., 2020, arXiv, **RepBERT**）
+- [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding](https://dl.acm.org/doi/pdf/10.1145/3397271.3401271)（Nie et al., 2020, SIGIR, **DC-BERT**）
+- [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2020, arXiv）
+- [Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval](https://arxiv.org/pdf/2007.00808.pdf)（Xiong et al., 2020, arXiv, **ANCE**）
+- [Learning To Retrieve: How to Train a Dense Retrieval Model Effectively and Efficiently](https://arxiv.org/pdf/2010.10469.pdf)（Zhan et al., 2020, arXiv, **LTRe**）
+- [An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2021.naacl-main.466.pdf)（Qu et al., 2021, ACL, **RocketQA**）
+- [Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling](https://arxiv.org/pdf/2104.06967.pdf)（Hofstätter et al., 2021, SIGIR, **TAS-Balanced**）
+- [Optimizing Dense Retrieval Model Training with Hard Negatives](https://arxiv.org/pdf/2104.08051.pdf)（Zhan et al., 2021, SIGIR, **STAR/ADORE**）
+- [Learning Dense Representations of Phrases at Scale](https://arxiv.org/pdf/2012.12624.pdf)（Lee et al., 2021, ACL, **DensePhrases**）
+- [More Robust Dense Retrieval with Contrastive Dual Learning](https://arxiv.org/pdf/2107.07773.pdf)（Lee et al., 2021, ICTIR, **DANCE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval](https://aclanthology.org/2021.findings-acl.191.pdf)（Ren et al., 2021, ACL, **PAIR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Relevance-guided Supervision for OpenQA with ColBERT](https://arxiv.org/pdf/2007.00814.pdf)（Khattab et al., 2021, TACL, **ColBERT-QA**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering](https://arxiv.org/pdf/2106.05346.pdf)（Sachan et al., 2021, arXiv, **EMDR$^2$​**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Knowledge Distillation**
-  - Distilling Dense Representations for Ranking using Tightly-Coupled Teachers（**TCT-ColBERT**）
-  - Distilling Knowledge for Fast Retrieval-based Chat-bots（2020）
-  - Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation
-  - Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation（2021，Margin-MSE loss）
+  - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers](https://arxiv.org/pdf/2010.11386.pdf)（Lin et al., 2020, arXiv, **TCT-ColBERT**）
+  - [Distilling Knowledge for Fast Retrieval-based Chat-bots](https://dl.acm.org/doi/pdf/10.1145/3397271.3401296)（Tahami et al., 2020, SIGIR）
+  - [Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/pdf/2012.04584.pdf)（Izacard et al., 2020, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation](https://arxiv.org/pdf/2103.06523.pdf)（Choi et al., 2021, SIGIR, **TRMD**）
+  - [Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation](https://arxiv.org/pdf/2010.02666.pdf)（Hofstätter et al., 2021, arXiv, **Margin-MSE loss**）
 - **Multi-vector Representation** 
-  - Multi-Hop Paragraph Retrieval for Open-Domain Question Answering（2019, ACL, **MUPPET**）
-  - Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring（2020, ICLR, **Poly-encoders**）
-  - Sparse, Dense, and Attentional Representations for Text Retrieval（2020, **ME-BERT**）
-  - ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT（2020, SIGIR, **ColBERT**）
-  - COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List（2021, **COIL**）
-  - Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval（2021, ACL）
+  - [Multi-Hop Paragraph Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/1906.06606.pdf)（Feldman et al., 2019, ACL, **MUPPET**）
+  - [Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring](https://arxiv.org/pdf/1905.01969.pdf)（Humeau et al., 2020, ICLR, **Poly-encoders**）
+  - [Sparse, Dense, and Attentional Representations for Text Retrieval](https://arxiv.org/pdf/2005.00181.pdf)（Luan et al., 2020, TACL, **ME-BERT**）
+  - [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](https://dl.acm.org/doi/pdf/10.1145/3397271.3401075)（Khattab et al., 2020, SIGIR, **ColBERT**）
+  - [COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List](https://arxiv.org/pdf/2104.07186.pdf)（Gao et al., 2021, NACL, **COIL**）
+  - [Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval](https://arxiv.org/pdf/2105.03599.pdf)（Tang et al., 2021, ACL）
 - **Accelerate Interaction-based Models**
-  - Incorporating query term independence assumption for efficient retrieval and ranking using deep neural networks（2019）
-  - Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing（2019, WWW）
-  - Efficient Document Re-Ranking for Transformers by Precomputing Term Representations（2020, SIGIR, **PreTTR**）
-  - DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering（2020, ACL, **DeFormer**）
-  - SPARTA: Efﬁcient Open-Domain Question Answering via Sparse Transformer Matching Retrieval（**SPARTA**）
-  - Conformer-kernel with query term independence for document retrieval（2020）
+  - [Incorporating Query Term Independence Assumption for Efficient Retrieval and Ranking using Deep Neural Networks](https://arxiv.org/pdf/1907.03693.pdf)（Mitra et al., 2019, arXiv）
+  - [Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing](https://dl.acm.org/doi/pdf/10.1145/3308558.3313576)（Ji et al., 2019, WWW）
+  - [Efficient Document Re-Ranking for Transformers by Precomputing Term Representations](https://dl.acm.org/doi/pdf/10.1145/3397271.3401093)（MacAvaney et al., 2020, SIGIR, **PreTTR**）
+  - [DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering](https://arxiv.org/pdf/2005.00697.pdf)（Cao et al., 2020, ACL, **DeFormer**）
+  - [SPARTA: Efﬁcient Open-Domain Question Answering via Sparse Transformer Matching Retrieval](https://arxiv.org/pdf/2009.13013.pdf)（Zhao et al., 2020, arXiv, **SPARTA**）
+  - [Conformer-Kernel with Query Term Independence for Document Retrieval](https://arxiv.org/pdf/2007.10434.pdf)（Mitra et al., 2020, arXiv）
 - **Pre-training**
-  - Latent Retrieval for Weakly Supervised Open Domain Question Answering（2019, ACL, **ORQA**）
-  - Retrieval-Augmented Language Model Pre-Training（2020, **REALM**）
-  - Pre-training Tasks for Embedding-based Large-scale Retrieval（2020）
-  - Embedding-based Zero-shot Retrieval through Query Generation（query generation）
-  - Zero-shot neural retrieval via domain-targeted synthetic query generation（2020，query generation）
-  - Towards Robust Neural Retrieval Models with Synthetic Pre-Training（query generation）
-  - Pre-trained Language Model for Web-scale Retrieval in Baidu Search<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Latent Retrieval for Weakly Supervised Open Domain Question Answering](https://arxiv.org/pdf/1906.00300.pdf)（Lee et al., 2019, ACL, **ORQA**）
+  - [Retrieval-Augmented Language Model Pre-Training](http://proceedings.mlr.press/v119/guu20a/guu20a.pdf)（Guu et al., 2020, ICML, **REALM**）
+  - [Pre-training Tasks for Embedding-based Large-scale Retrieval](https://arxiv.org/pdf/2002.03932.pdf)（Chang et al., 2020, ICLR, **BFS+WLP+MLM**）
+  - [Embedding-based Zero-shot Retrieval through Query Generation](https://arxiv.org/pdf/2009.10270.pdf)（Liang et al., 2020, arXiv, **query generation**）
+  - [Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation](https://arxiv.org/pdf/2004.14503.pdf)（Ma et al., 2020, arXiv, **query generation**）
+  - [Towards Robust Neural Retrieval Models with Synthetic Pre-Training](https://arxiv.org/pdf/2104.07800.pdf)（Reddy et al., 2021, arXiv, **query generation**）
+  - [Pre-trained Language Model for Web-scale Retrieval in Baidu Search](https://arxiv.org/pdf/2106.03373.pdf)（Liu et al., 2021, KDD）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Joint Learning with Index**
-  - Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index（2021, SIGIR）
-  - Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance（2021）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index](https://arxiv.org/pdf/2105.03933.pdf)（Zhang et al., 2021, SIGIR, **Poeem**）
+  - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance](https://arxiv.org/pdf/2108.00644.pdf)（Zhan et al., 2021, CIKM, **JPQ**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 ### Hybrid of Sparse-dense Retrieval Methods
 
-- Monolingual and cross-lingual information retrieval models based on (bilingual) word embeddings（2015）
-- Word embedding based generalized language model for information retrieval（2015, **GLM**）
-- Learning Hybrid Representations to Retrieve Semantically Equivalent Questions（2015, **BOW-CNN**）
-- Word embedding based generalized language model for information retrieval（2015）
-- Representing documents and queries as sets of word embedded vectors for information retrieval（2016）
-- A Dual Embedding Space Model for Document Ranking（2016, **DESM_mixture**）
-- Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index (2019, ACL, **DenSPI**)
-- Contextualized Sparse Representations for Real-Time Open-Domain Question Answering（2020, ACL, **SPARC**）
-- Expansion via Prediction of Importance with Contextualization（2020, SIGIR, **EPIC**）
-- Sparse, Dense, and Attentional Representations for Text Retrieval（2020, **Hybrid**）
-- Complementing lexical retrieval with semantic residual embedding（2020, **CLEAR**）
-- Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach（2020）
-- Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval（2021, SIGIR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings](https://dl.acm.org/doi/pdf/10.1145/2766462.2767752)（Vulic et al., 2015, SIGIR, ）
+- [Word Embedding based Generalized Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2766462.2767780)（Ganguly et al., 2015, SIGIR, **GLM**）
+- [Learning Hybrid Representations to Retrieve Semantically Equivalent Questions](https://aclanthology.org/P15-2114.pdf)（Santos et al., 2015, ACL, **BOW-CNN**）
+- [Representing Documents and Queries as Sets of Word Embedded Vectors for Information Retrieval](https://arxiv.org/pdf/1606.07869.pdf)（Roy et al., 2016, SIGIR）
+- [A Dual Embedding Space Model for Document Ranking](https://arxiv.org/pdf/1602.01137.pdf)（Mitra et al., 2016, WWW, **DESM_mixture**）
+- [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index](https://arxiv.org/pdf/1906.05807.pdf) （Seo et al., 2019, ACL, **DenSPI**）
+- [Contextualized Sparse Representations for Real-Time Open-Domain Question Answering](https://arxiv.org/pdf/1911.02896.pdf)（Lee et al., 2020, ACL, **SPARC**）
+- [Expansion via Prediction of Importance with Contextualization](https://dl.acm.org/doi/pdf/10.1145/3397271.3401262)（MacAvaney et al., 2020, SIGIR, **EPIC**）
+- [Sparse, Dense, and Attentional Representations for Text Retrieval](https://arxiv.org/pdf/2005.00181.pdf)（Luan et al., 2020, TACL, **ME-Hybrid**）
+- [Complement Lexical Retrieval Model with Semantic Residual Embeddings](https://arxiv.org/pdf/2004.13969.pdf)（Gao et al., 2020, ECIR, **CLEAR**）
+- [Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach](https://arxiv.org/pdf/2010.01195.pdf)（Kuzi et al., 2020, arXiv, **Hybrid**）
+- [Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval](https://dl.acm.org/doi/pdf/10.1145/3404835.3463073)（Chen et al., 2021, SIGIR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 
 
