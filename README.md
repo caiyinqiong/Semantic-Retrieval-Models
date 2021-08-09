@@ -207,7 +207,7 @@
 
 ### Hybrid of Sparse-dense Retrieval Methods
 
-- [Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings](https://dl.acm.org/doi/pdf/10.1145/2766462.2767752)（Vulic et al., 2015, SIGIR, ）
+- [Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings](https://dl.acm.org/doi/pdf/10.1145/2766462.2767752)（Vulic et al., 2015, SIGIR）
 - [Word Embedding based Generalized Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2766462.2767780)（Ganguly et al., 2015, SIGIR, **GLM**）
 - [Learning Hybrid Representations to Retrieve Semantically Equivalent Questions](https://aclanthology.org/P15-2114.pdf)（Santos et al., 2015, ACL, **BOW-CNN**）
 - [Representing Documents and Queries as Sets of Word Embedded Vectors for Information Retrieval](https://arxiv.org/pdf/1606.07869.pdf)（Roy et al., 2016, SIGIR）
@@ -225,31 +225,37 @@
 
 ## Other Resources
 ### Other Tasks
-- Embedding-based Retrieval in Facebook Search（KDD2020）
-- K-way D-dimensional Discrete Codes for Compact Embedding Representations
-- Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations
-- From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search（SIGIR2019，Jingdong）
-- Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning（2020, SIGIR, **DPSR**, Jingdong）
-- MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search（Baidu）
-- Deep interest network for click-through rate prediction（**DIN**）
-- Multi-Interest Network with Dynamic Routing for Recommendation at Tmall（2019, **MIND**, Tmall）
-- Deep Multi-Interest Network for Click-through Rate Prediction（2020, CIKM, **DMIN**）
-- Few-Shot Conversational Dense Retrieval（2021, SIGIR, dialogue）
-- Report on the First HIPstIR Workshop on the Future of Information Retrieval（2019, workshop）
-- Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects（2019, SIGIR）
-- Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search（2016, CIKM）
-- Binary Neural Network Hashing for Image Retrieval（2021, SIGIR）
+- **E-commerce Search**
+  - [Deep Interest Network for Click-Through Rate Prediction](https://dl.acm.org/doi/pdf/10.1145/3219819.3219823)（Zhou et al., 2018, KDD, **DIN**）
+  - [From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search](https://dl.acm.org/doi/pdf/10.1145/3331184.3331434)（Li et al., 2019, SIGIR, Jingdong）
+  - [Multi-Interest Network with Dynamic Routing for Recommendation at Tmall](https://dl.acm.org/doi/pdf/10.1145/3357384.3357814)（Li et al., 2019, CIKM, **MIND**, Tmall）
+  - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning](https://dl.acm.org/doi/pdf/10.1145/3397271.3401446)（Zhang et al., 2020, SIGIR, **DPSR**, Jingdong）
+  - [Deep Multi-Interest Network for Click-through Rate Prediction](https://dl.acm.org/doi/pdf/10.1145/3340531.3412092)（Xiao et al., 2020, CIKM, **DMIN**）
+  - [Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations](https://arxiv.org/pdf/2007.07203.pdf)（Gao et al., 2020, arXiv）
+- **Sponsored Search**
+  - [MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search](https://dl.acm.org/doi/pdf/10.1145/3292500.3330651)（Fan et al., 2019, KDD, Baidu）
+- **Image Retrieval**
+  - [Binary Neural Network Hashing for Image Retrieval](https://dl.acm.org/doi/pdf/10.1145/3404835.3462896)（Zhang et al., 2021, SIGIR, **BNNH**）
+- **Conversational/Dialogue Retrieval**
+  - [Few-Shot Conversational Dense Retrieval](https://arxiv.org/pdf/2105.04166.pdf)（Yu et al., 2021, SIGIR）
+- [Report on the First HIPstIR Workshop on the Future of Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/3458553.3458560)（Dietz et al., 2019, SIGIR, workshop）
+- [Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects](https://arxiv.org/pdf/1907.04614.pdf)（Hofstätter et al., 2019, SIGIR）
+- [Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search](https://dl.acm.org/doi/pdf/10.1145/2983323.2983815)（Boytsov et al., 2016, CIKM）
+- [Embedding-based Retrieval in Facebook Search](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)（Huang et al., 2020, KDD, **EBR**）
+- [Learning K-way D-dimensional Discrete Codes for Compact Embedding Representations](http://proceedings.mlr.press/v80/chen18g/chen18g.pdf)（Chen et al., 2018, ICML）
+
+
 
 ### Datasets
-- 【TREC CAR】TREC Complex Answer Retrieval Overview
-- 【MS MARCO】A human-generated machine reading comprehension datase
-- 【TREC DL】
+- 【MS MARCO】[MS MARCO: A Human Generated MAchine Reading COmprehension Dataset](https://arxiv.org/pdf/1611.09268.pdf)
+- 【TREC CAR】[TREC Complex Answer Retrieval Overview](https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf)
+- 【TREC DL】[Overview of the TREC 2019 deep learning track](https://arxiv.org/pdf/2003.07820.pdf)
 
 ### Index
 - **Tree-based**
-  - 【KD tree】Multidimensional binary search trees used for associative searching（1975）
+  - Multidimensional binary search trees used for associative searching（1975, KD tree）
 - **Hashing-based**
-  - 【LSH】Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998）
+  - Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998, LSH）
   - Asymmetric LSH for sublinear time maximum inner product search（2014）
 - **Quantization-based**
   - Product quantization for nearest neighbor search（2010, **PQ**）
