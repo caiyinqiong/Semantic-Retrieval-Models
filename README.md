@@ -12,7 +12,7 @@
 
 ## Contents
 
-- [Survey paper](#survey-paper)
+- [Survey Paper](#survey-paper)
 - [Chapter 1: Classical Term-based Retrieval](#classical-term-based-etrieval)
 - [Chapter 2: Early Methods for Semantic Retrieval](#early-methods-for-semantic-retrieval)
   - [Query Expansion](#query-expansion)
