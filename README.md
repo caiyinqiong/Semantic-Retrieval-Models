@@ -10,7 +10,7 @@
 > - For researchers who want to acquire semantic models for re-ranking stages, we refer readers to the awesome NeuIR survey by *[Guo et.al](https://arxiv.org/abs/1903.06902)*.
 > - Any feedback and contribution are welcome, please open an issue or [contact me](mailto:caiyinqiong18s@ict.ac.cn).
 
-# Contents
+## Contents
 
 - [Survey Paper](#survey-paper)
 - [Chapter 1: Classical Term-based Retrieval](#classical-term-based-etrieval)
@@ -33,7 +33,7 @@
 
 
 
-# Survey Paper
+## Survey Paper
 
 - [Semantic Matching in Search](https://dl.acm.org/doi/abs/10.1561/1500000035)（Li et al., 2014）
 - [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467)（Lin et al., 2021, arXiv）
@@ -41,7 +41,7 @@
 
 
 
-# Classical Term-based Retrieval
+## Classical Term-based Retrieval
 
 - [A Vector Space Model for Automatic Indexing](https://dl.acm.org/doi/pdf/10.1145/361219.361220?casa_token=6DLRaJE7vXAAAAAA:EBd4ds5a5xnwx4xK3NJBFcJc0L-bV_leUMaZLMoeh9Bo7ws8ziHhAXv0eUjcIGFV2PHxN-xMIKWayg)（1975, **VSM**）
 - [Developments in Automatic Text Retrieval](https://science.sciencemag.org/content/253/5023/974)（1991, **TFIDF**）
@@ -56,7 +56,7 @@
 
 
 
-# Early Methods for Semantic Retrieval
+## Early Methods for Semantic Retrieval
 
 ### Query Expansion
 
@@ -123,7 +123,7 @@
 
 
 
-# Neural Methods for Semantic Retrieval
+## Neural Methods for Semantic Retrieval
 ### Sparse Retrieval Methods
 
 - **Term Re-weighting**
@@ -230,7 +230,7 @@
 
 
 
-# Other Resources
+## Other Resources
 ### Other Tasks
 - **E-commerce Search**
   - [Deep Interest Network for Click-Through Rate Prediction](https://dl.acm.org/doi/pdf/10.1145/3219819.3219823)（Zhou et al., 2018, KDD, **DIN**）
