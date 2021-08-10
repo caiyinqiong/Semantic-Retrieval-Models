@@ -257,20 +257,16 @@
 
 ### Indexing Methods
 - **Tree-based**
-  - Multidimensional binary search trees used for associative searching（1975, **KD tree**）
+  - [Multidimensional Binary Search Trees Used for Associative Searching](https://dl.acm.org/doi/pdf/10.1145/361002.361007)（1975, **KD tree**）
+  - [Annoy](https://github.com/spotify/annoy)
 - **Hashing-based**
-  - Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998, **LSH**）
-  - Asymmetric LSH for sublinear time maximum inner product search（2014）
+  - [Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality](https://dl.acm.org/doi/pdf/10.1145/276698.276876)（1998, **LSH**）
 - **Quantization-based**
-  - Product quantization for nearest neighbor search（2010, **PQ**）
-  - Optimized product quantization（**OPQ**）
-  - Additive quantization for extreme vector compression（2014）
-  - Composite quantization for approximate nearest neighbor search（2014）
-  - Tree quantization for large-scale similarity search and classification（2015）
+  - [Product Quantization for Nearest Neighbor Search](https://ieeexplore.ieee.org/abstract/document/5432202)（2010, **PQ**）
+  - [Optimized Product Quantization](https://ieeexplore.ieee.org/abstract/document/6678503)（2013, **OPQ**）
 - **Graph-based**
-  - Scalable k-NN graph construction for visual descriptors（2012）
-  - Navigation in a small world（**NSW**）
-  - Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs（**HNSW**）
+  - [Navigation in a Small World](https://www.nature.com/articles/35022643.pdf)（2000, **NSW**）
+  - [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://arxiv.org/pdf/1603.09320.pdf)（2018, **HNSW**）
 - **Toolkits**
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
   - [SPTAG: A library for fast approximate nearest neighbor search](https://github.com/microsoft/SPTAG)
