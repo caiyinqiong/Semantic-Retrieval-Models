@@ -20,14 +20,14 @@
   - [Term Dependency Model](#term-dependency-model)
   - [Topic Model](#topic-model)
   - [Translation Model](#translation-model)
-- [Chapter 3: Neural Methods for Semantic Retrieval](#neural-methods-for-semantic-retrieval)
+- [**Chapter 3: Neural Methods for Semantic Retrieval**](#neural-methods-for-semantic-retrieval)
   - [Sparse Retrieval Methods](#sparse-retrieval-methods)
   - [Dense Retrieval Methods](#dense-retrieval-methods)
   - [Hybrid Retrieval Methods](#hybrid-retrieval-methods)
 - [Chapter 4: Other Resources](#other-resources)
   - [Other Tasks](#other-tasks)
   - [Datasets](#datasets)
-  - [Index](#index)
+  - [Indexing Methods](#index)
 
 ***
 
@@ -35,6 +35,7 @@
 
 ## Survey Paper
 
+- [Semantic Matching in Search](https://dl.acm.org/doi/abs/10.1561/1500000035)（Li et al., 2014）
 - [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467)（Lin et al., 2021, arXiv）
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review](https://arxiv.org/pdf/2103.04831.pdf) (Cai et al., 2021, arXiv)
 
@@ -60,19 +61,20 @@
 
 ### Query Expansion
 
-- Global methods expand or reformulate query words by analyzing the word co-occurrences from the corpus being searched or using hand-crafted thesaurus
-- Global analysis often relies on external resources or document collections
-- Word-word associations in document retrieval systems.（1969）
-- Concept based query expansion（1993）
+- Global Model
+  - Global analysis often relies on external resources or document collections
+  - Concept based query expansion（1993）
+  - Word-word associations in document retrieval systems.（1969）
+- Local Model
+  - 【PRF】Query expansion using lexical-semantic relations.（1994）
+  - 【PRF】Selecting good expansion terms for pseudo-relevance feedback.（2008）
+  - 【Rocchio PRF】Relevance Feedback in Information Retrieval（1971）
+  - A comparative study of methods for estimating query language models with pseudo feedback.（2009）
+  - Pseudo-relevance feedback based on matrix factorization（2016）
 - 【RM3】Relevance based language models（2001）
 - Model-based feedback in the language modeling approach to information retrieval.（2001）
 - Query expansion using local and global document analysis.
-- 【PRF】Query expansion using lexical-semantic relations.（1994）
-- 【PRF】Selecting good expansion terms for pseudo-relevance feedback.（2008）
-- 【Rocchio PRF】Relevance Feedback in Information Retrieval（1971）
 - Search Engines: Information Retrieval in Practice.（2009）
-- A comparative study of methods for estimating query language models with pseudo feedback.（2009）
-- Pseudo-relevance feedback based on matrix factorization（2016）
 - Reducing the risk of query expansion via robust constrained optimization（2009，query drift problem）
 
 ### Document Expansion
@@ -81,20 +83,20 @@
 
 ### Term Dependency Model
 
-- 【VSM + term dependency】
+- **VSM + term dependency**
   - Experiments in automatic phrase indexing for document retrieval: A comparison of syntactic and non-syntactic methods（1987）
   - An analysis of statistical and syntactic phrases（1997）
   - Term-weighting approaches in automatic text retrieval（1988）
   - A probabilistic model of information retrieval: development and comparative experiments.（2000）
-- 【BM25 + term dependency】
+- **BM25 + term dependency**
   - Relevance ranking using kernels.（2010）
-- 【LM + term dependency】
+- **LM + term dependency**
   - A general language model for information retrieval.（1999）
   - Biterm language models for document retrieval.（2002）
   - Capturing term dependencies using a language model based on sentence trees.（2002）
   - Dependence language model for information retrieval（2004）
 - A generative theory of relevance（2004）
-- 【SDM】A Markov random ﬁeld model for term dependencies（2005）
+- A Markov random ﬁeld model for term dependencies（2005, **SDM**）
 
 ### Topic Model
 
@@ -160,9 +162,10 @@
 - [Phrase-Indexed Question Answering: A New Challenge for Scalable Document Comprehension](https://arxiv.org/pdf/1804.07726.pdf)（Seo et al., 2018, EMNLP, **PIQA**）
 - [CoRT: Complementary Rankings from Transformers](https://aclanthology.org/2021.naacl-main.331.pdf)（Wrzalik et al., 2019, NAACL, **CoRT**）
 - [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/2004.04906.pdf)（Karpukhin et al., 2020, EMNLP, **DPR**）
+- [Retrieval-augmented generation for knowledge-intensive NLP tasks](https://arxiv.org/pdf/2005.11401.pdf)（Lewis et al., 2020, NLPS, **RAG**）
 - [RepBERT: Contextualized Text Embeddings for First-Stage Retrieval](https://arxiv.org/pdf/2006.15498.pdf)（Zhan et al., 2020, arXiv, **RepBERT**）
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding](https://dl.acm.org/doi/pdf/10.1145/3397271.3401271)（Nie et al., 2020, SIGIR, **DC-BERT**）
-- [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2020, arXiv）
+- [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2020, arXiv, **data augmentation**）
 - [Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval](https://arxiv.org/pdf/2007.00808.pdf)（Xiong et al., 2020, arXiv, **ANCE**）
 - [Learning To Retrieve: How to Train a Dense Retrieval Model Effectively and Efficiently](https://arxiv.org/pdf/2010.10469.pdf)（Zhan et al., 2020, arXiv, **LTRe**）
 - [An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2021.naacl-main.466.pdf)（Qu et al., 2021, ACL, **RocketQA**）
@@ -204,6 +207,8 @@
 - **Joint Learning with Index**
   - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index](https://arxiv.org/pdf/2105.03933.pdf)（Zhang et al., 2021, SIGIR, **Poeem**）
   - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance](https://arxiv.org/pdf/2108.00644.pdf)（Zhan et al., 2021, CIKM, **JPQ**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- **Debias**
+  - [Learning Robust Dense Retrieval Models from Incomplete Relevance Labels](https://dl.acm.org/doi/pdf/10.1145/3404835.3463106?casa_token=o7uvhY_qcJgAAAAA:m5tqKfk2x4HNcucL2iL5oMclriEuEZ-O_k7sy8UcJiAWe493HIFg6OeJv-kG7DQEMcoCjZEyhEP3Mg)（Prakash et al., 2021, SIGIR, **RANCE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 ### Hybrid of Sparse-dense Retrieval Methods
 
@@ -244,18 +249,17 @@
 - [Embedding-based Retrieval in Facebook Search](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)（Huang et al., 2020, KDD, **EBR**）
 - [Learning K-way D-dimensional Discrete Codes for Compact Embedding Representations](http://proceedings.mlr.press/v80/chen18g/chen18g.pdf)（Chen et al., 2018, ICML）
 
-
-
 ### Datasets
 - 【MS MARCO】[MS MARCO: A Human Generated MAchine Reading COmprehension Dataset](https://arxiv.org/pdf/1611.09268.pdf)
 - 【TREC CAR】[TREC Complex Answer Retrieval Overview](https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf)
 - 【TREC DL】[Overview of the TREC 2019 deep learning track](https://arxiv.org/pdf/2003.07820.pdf)
+- 【TREC COVID】[TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection](https://dl.acm.org/doi/pdf/10.1145/3451964.3451965)
 
-### Index
+### Indexing Methods
 - **Tree-based**
-  - Multidimensional binary search trees used for associative searching（1975, KD tree）
+  - Multidimensional binary search trees used for associative searching（1975, **KD tree**）
 - **Hashing-based**
-  - Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998, LSH）
+  - Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality（1998, **LSH**）
   - Asymmetric LSH for sublinear time maximum inner product search（2014）
 - **Quantization-based**
   - Product quantization for nearest neighbor search（2010, **PQ**）
@@ -265,11 +269,12 @@
   - Tree quantization for large-scale similarity search and classification（2015）
 - **Graph-based**
   - Scalable k-NN graph construction for visual descriptors（2012）
-  - Navigation in a small world（NSW）
-  - Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs（HNSW）
-- Toolkits
+  - Navigation in a small world（**NSW**）
+  - Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs（**HNSW**）
+- **Toolkits**
   - [Faiss: a library for efficient similarity search and clustering of dense vectors](https://github.com/facebookresearch/faiss)
-  - [ElasticSearch](https://github.com/elastic/elasticsearch)
   - [SPTAG: A library for fast approximate nearest neighbor search](https://github.com/microsoft/SPTAG)
   - [OpenMatch: An Open-Source Package for Information Retrieval](https://github.com/thunlp/OpenMatch)
+  - [Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations](https://github.com/castorini/pyserini)
+  - [ElasticSearch](https://github.com/elastic/elasticsearch)
 
