@@ -170,7 +170,7 @@
 - [RepBERT: Contextualized Text Embeddings for First-Stage Retrieval](https://arxiv.org/pdf/2006.15498.pdf)（Zhan et al., 2020, arXiv, **RepBERT**）
 - [CoRT: Complementary Rankings from Transformers](https://aclanthology.org/2021.naacl-main.331.pdf)（Wrzalik et al., 2020, NAACL, **CoRT**）
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding](https://dl.acm.org/doi/pdf/10.1145/3397271.3401271)（Nie et al., 2020, SIGIR, **DC-BERT**）
-- [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2020, arXiv, **data augmentation**）
+- [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2021, ACL, **data augmentation**）
 - [Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval](https://arxiv.org/pdf/2007.00808.pdf)（Xiong et al., 2020, arXiv, **ANCE**）
 - [Learning To Retrieve: How to Train a Dense Retrieval Model Effectively and Efficiently](https://arxiv.org/pdf/2010.10469.pdf)（Zhan et al., 2020, arXiv, **LTRe**）
 - [GLOW : Global Weighted Self-Attention Network for Web](https://arxiv.org/pdf/2007.05186.pdf)（Shan et al, 2020, arXiv, **GLOW**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
@@ -197,6 +197,7 @@
   - [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](https://dl.acm.org/doi/pdf/10.1145/3397271.3401075)（Khattab et al., 2020, SIGIR, **ColBERT**）
   - [COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List](https://arxiv.org/pdf/2104.07186.pdf)（Gao et al., 2021, NACL, **COIL**）
   - [Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval](https://arxiv.org/pdf/2105.03599.pdf)（Tang et al., 2021, ACL）
+  - [Phrase Retrieval Learns Passage Retrieval, Too](https://arxiv.org/pdf/2109.08133.pdf)（Lee et al., 2021, EMNLP, **DensePhrases**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Query Embedding Pruning for Dense Retrieval](https://arxiv.org/abs/2108.10341)（Tonellotto et al., 2021, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Accelerate Interaction-based Models**
   - [Incorporating Query Term Independence Assumption for Efficient Retrieval and Ranking using Deep Neural Networks](https://arxiv.org/pdf/1907.03693.pdf)（Mitra et al., 2019, arXiv）
