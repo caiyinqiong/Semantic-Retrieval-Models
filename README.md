@@ -6,7 +6,7 @@
 
 > Note: 
 >
-> - A curated list of awesome papers for **Semantic Retrieval**, including some early methods and recent neural models for information retrieval tasks (e.g., ad-hoc retrieval, open-domain QA, community-based QA, and automatic conversation).
+> - A curated list of awesome papers for **[Semantic Retrieval](https://arxiv.org/abs/2103.04831)**, including some early methods and recent neural models for information retrieval tasks (e.g., ad-hoc retrieval, open-domain QA, community-based QA, and automatic conversation).
 > - For researchers who want to acquire semantic models for re-ranking stages, we refer readers to the awesome NeuIR survey by *[Guo et.al](https://arxiv.org/abs/1903.06902)*.
 > - Any feedback and contribution are welcome, please open an issue or [contact me](mailto:caiyinqiong18s@ict.ac.cn).
 
@@ -189,6 +189,7 @@
   - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers](https://arxiv.org/pdf/2010.11386.pdf)（Lin et al., 2020, arXiv, **TCT-ColBERT**）
   - [Distilling Knowledge for Fast Retrieval-based Chat-bots](https://dl.acm.org/doi/pdf/10.1145/3397271.3401296)（Tahami et al., 2020, SIGIR）
   - [Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/pdf/2012.04584.pdf)（Izacard et al., 2020, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Is Retriever Merely an Approximator of Reader?](https://arxiv.org/pdf/2010.10999.pdf)（Yang et al., 2020, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation](https://arxiv.org/pdf/2103.06523.pdf)（Choi et al., 2021, SIGIR, **TRMD**）
   - [Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation](https://arxiv.org/pdf/2010.02666.pdf)（Hofstätter et al., 2021, arXiv, **Margin-MSE loss**）
 - **Multi-vector Representation** 
@@ -226,6 +227,8 @@
   - [Matching-oriented Product Quantization For Ad-hoc Retrieval](https://arxiv.org/pdf/2104.07858.pdf)（Xiao et al., 2021, EMNLP, **MoPQ**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Debias**
   - [Learning Robust Dense Retrieval Models from Incomplete Relevance Labels](https://dl.acm.org/doi/pdf/10.1145/3404835.3463106?casa_token=o7uvhY_qcJgAAAAA:m5tqKfk2x4HNcucL2iL5oMclriEuEZ-O_k7sy8UcJiAWe493HIFg6OeJv-kG7DQEMcoCjZEyhEP3Mg)（Prakash et al., 2021, SIGIR, **RANCE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- **Zero-shot**
+  - [Zero-Shot Dense Retrieval with Momentum Adversarial Domain Invariant Representations](https://arxiv.org/pdf/2110.07581.pdf)（Xin et al., 2021, arXiv, **MoDIR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 ### Hybrid Retrieval Methods
 
@@ -245,6 +248,7 @@
 - [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf)（Lin et al., 2021, arXiv, **uniCOIL**）
 - [Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval](https://dl.acm.org/doi/pdf/10.1145/3404835.3463073)（Chen et al., 2021, SIGIR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - [Predicting Efficiency/Effectiveness Trade-offs for Dense vs. Sparse Retrieval Strategy Selection](https://arxiv.org/pdf/2109.10739.pdf)（Arabzadeh et al., 2021, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Fast Forward Indexes for Efficient Document Ranking](https://arxiv.org/pdf/2110.06051.pdf)（Leonhardt et al., 2021, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 
 
@@ -259,6 +263,7 @@
   - [Deep Multi-Interest Network for Click-through Rate Prediction](https://dl.acm.org/doi/pdf/10.1145/3340531.3412092)（Xiao et al., 2020, CIKM, **DMIN**）
   - [Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations](https://arxiv.org/pdf/2007.07203.pdf)（Gao et al., 2020, arXiv）
   - [Embedding-based Product Retrieval in Taobao Search](https://arxiv.org/pdf/2106.09297.pdf)（Li et al., 2021, KDD, taobao）
+  - [Embracing Structure in Data for Billion-Scale Semantic Product Search](https://arxiv.org/pdf/2110.06125.pdf)（Lakshman et al., 2021, arXiv, Amazon）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Sponsored Search**
   - [MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search](https://dl.acm.org/doi/pdf/10.1145/3292500.3330651)（Fan et al., 2019, KDD, Baidu）
 - **Image Retrieval**
