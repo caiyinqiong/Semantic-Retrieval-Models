@@ -147,13 +147,13 @@
   - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://dl.acm.org/doi/pdf/10.1145/3404835.3463098)（Formal et al., 2021, SIGIR, **SPLADE**）
   - [SPLADE v2: Sparse Lexical and Expansion Model for Information Retrieval](https://arxiv.org/pdf/2109.10086.pdf)（Formal et al., 2021, arXiv, **SPLADEv2**）
   - [Learning Passage Impacts for Inverted Indexes](https://dl.acm.org/doi/pdf/10.1145/3404835.3463030)（Mallia et al., 2021, SIGIR, **DeepImapct**）
-  - [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking](http://ielab.io/publications/pdfs/arvin2021tilde.pdf)（Zhuang et al., 2021, SIGIR, **TILDE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking](http://ielab.io/publications/pdfs/arvin2021tilde.pdf)（Zhuang et al., 2021, SIGIR, **TILDE**）
   - [Fast Passage Re-ranking with Contextualized Exact Term Matching and Efficient Passage Expansion](https://arxiv.org/pdf/2108.08513.pdf)（Zhuang et al., 2021, arXiv, **TILDEv2**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Sparse Representation Learning**
   - [Semantic Hashing](https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324)（Salakhutdinov et al., 2009）
   - [From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing](https://dl.acm.org/doi/pdf/10.1145/3269206.3271800)（Zamani et al., 2018, CIKM, **SNRM**）
   - [UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking](https://arxiv.org/pdf/2104.07198.pdf)（Jang et al., 2021, arXiv, **UHD-BERT**）
-  - [Efﬁcient Passage Retrieval with Hashing for Open-domain Question Answering](https://arxiv.org/pdf/2106.00882.pdf)（Yamada et al., 2021, ACL, **BPR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Efﬁcient Passage Retrieval with Hashing for Open-domain Question Answering](https://arxiv.org/pdf/2106.00882.pdf)（Yamada et al., 2021, ACL, **BPR**）
   - [Composite Code Sparse Autoencoders for First Stage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3404835.3463066?casa_token=MPKX0sQEXTgAAAAA:DeX2RpvQpfS_8wpW1DfHvfeMtQjglVIkp84o4N-ZZPGiUbUQqMllfxWS2E8SYzKLGLWyz_eI9L0-)（Lassance et al., 2021, SIGIR, **CCSA**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 ### Dense Retrieval Methods
@@ -174,25 +174,26 @@
 - [Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation](https://arxiv.org/pdf/2009.13815.pdf)（Yang et al., 2021, ACL, **data augmentation**）
 - [Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval](https://arxiv.org/pdf/2007.00808.pdf)（Xiong et al., 2020, arXiv, **ANCE**）
 - [Learning To Retrieve: How to Train a Dense Retrieval Model Effectively and Efficiently](https://arxiv.org/pdf/2010.10469.pdf)（Zhan et al., 2020, arXiv, **LTRe**）
-- [GLOW : Global Weighted Self-Attention Network for Web](https://arxiv.org/pdf/2007.05186.pdf)（Shan et al, 2020, arXiv, **GLOW**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [GLOW : Global Weighted Self-Attention Network for Web](https://arxiv.org/pdf/2007.05186.pdf)（Shan et al, 2020, arXiv, **GLOW**）
 - [An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2021.naacl-main.466.pdf)（Qu et al., 2021, ACL, **RocketQA**）
 - [Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling](https://arxiv.org/pdf/2104.06967.pdf)（Hofstätter et al., 2021, SIGIR, **TAS-Balanced**）
 - [Optimizing Dense Retrieval Model Training with Hard Negatives](https://arxiv.org/pdf/2104.08051.pdf)（Zhan et al., 2021, SIGIR, **STAR/ADORE**）
 - [Few-Shot Conversational Dense Retrieval](https://arxiv.org/pdf/2105.04166.pdf)（Yu et al., 2021, SIGIR）
 - [Learning Dense Representations of Phrases at Scale](https://arxiv.org/pdf/2012.12624.pdf)（Lee et al., 2021, ACL, **DensePhrases**）
-- [More Robust Dense Retrieval with Contrastive Dual Learning](https://arxiv.org/pdf/2107.07773.pdf)（Lee et al., 2021, ICTIR, **DANCE**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval](https://aclanthology.org/2021.findings-acl.191.pdf)（Ren et al., 2021, ACL, **PAIR**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Relevance-guided Supervision for OpenQA with ColBERT](https://arxiv.org/pdf/2007.00814.pdf)（Khattab et al., 2021, TACL, **ColBERT-QA**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering](https://arxiv.org/pdf/2106.05346.pdf)（Sachan et al., 2021, arXiv, **EMDR^2​**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback](https://arxiv.org/pdf/2108.13454.pdf)（Yu et al, 2021, CIKM, **ANCE-PRF**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Pseudo-Relevance Feedback for Multiple Representation Dense Retrieval](https://arxiv.org/pdf/2106.11251.pdf)（Wang et al., 2021, ICTIR, **ColBERT-PRF**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [More Robust Dense Retrieval with Contrastive Dual Learning](https://arxiv.org/pdf/2107.07773.pdf)（Lee et al., 2021, ICTIR, **DANCE**）
+- [PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval](https://aclanthology.org/2021.findings-acl.191.pdf)（Ren et al., 2021, ACL, **PAIR**）
+- [Relevance-guided Supervision for OpenQA with ColBERT](https://arxiv.org/pdf/2007.00814.pdf)（Khattab et al., 2021, TACL, **ColBERT-QA**）
+- [End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering](https://arxiv.org/pdf/2106.05346.pdf)（Sachan et al., 2021, arXiv, **EMDR^2​**）
+- [Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback](https://arxiv.org/pdf/2108.13454.pdf)（Yu et al, 2021, CIKM, **ANCE-PRF**）
+- [Pseudo-Relevance Feedback for Multiple Representation Dense Retrieval](https://arxiv.org/pdf/2106.11251.pdf)（Wang et al., 2021, ICTIR, **ColBERT-PRF**）
+- [A Discriminative Semantic Ranker for Question Retrieval](https://arxiv.org/pdf/2107.08345.pdf)（Cai et al., 2021, ICTIR, **DenseTrans**）
 - [Representation Decoupling for Open-Domain Passage Retrieval](https://arxiv.org/pdf/2110.07524.pdf)（Wu et al., 2021, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking](https://arxiv.org/pdf/2110.07367.pdf)（Ren et al., 2021, EMNLP, **RocketQAv2**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Knowledge Distillation**
   - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers](https://arxiv.org/pdf/2010.11386.pdf)（Lin et al., 2020, arXiv, **TCT-ColBERT**）
   - [Distilling Knowledge for Fast Retrieval-based Chat-bots](https://dl.acm.org/doi/pdf/10.1145/3397271.3401296)（Tahami et al., 2020, SIGIR）
-  - [Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/pdf/2012.04584.pdf)（Izacard et al., 2020, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-  - [Is Retriever Merely an Approximator of Reader?](https://arxiv.org/pdf/2010.10999.pdf)（Yang et al., 2020, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/pdf/2012.04584.pdf)（Izacard et al., 2020, arXiv）
+  - [Is Retriever Merely an Approximator of Reader?](https://arxiv.org/pdf/2010.10999.pdf)（Yang et al., 2020, arXiv）
   - Twinbert: Distilling knowledge to twin-structured compressed bert models for large-scale retrieval.
   - [Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation](https://arxiv.org/pdf/2103.06523.pdf)（Choi et al., 2021, SIGIR, **TRMD**）
   - [Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation](https://arxiv.org/pdf/2010.02666.pdf)（Hofstätter et al., 2021, arXiv, **Margin-MSE loss**）
@@ -220,10 +221,10 @@
   - [Embedding-based Zero-shot Retrieval through Query Generation](https://arxiv.org/pdf/2009.10270.pdf)（Liang et al., 2020, arXiv, **query generation**）
   - [Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation](https://arxiv.org/pdf/2004.14503.pdf)（Ma et al., 2020, arXiv, **query generation**）
   - [Towards Robust Neural Retrieval Models with Synthetic Pre-Training](https://arxiv.org/pdf/2104.07800.pdf)（Reddy et al., 2021, arXiv, **query generation**）
-  - [Is Your Language Model Ready for Dense Representation Fine-tuning?](https://arxiv.org/pdf/2104.08253.pdf)（Gao et al., 2021, arXiv, **Condenser**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Is Your Language Model Ready for Dense Representation Fine-tuning?](https://arxiv.org/pdf/2104.08253.pdf)（Gao et al., 2021, EMNLP, **Condenser**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval](https://arxiv.org/abs/2108.05540)（Gao et al., 2021, arXiv, **coCondenser**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-  - [Less is More: Pre-training a Strong Siamese Encoder Using a Weak Decoder](https://arxiv.org/pdf/2102.09206.pdf)（Lu et al., 2021, arXiv, **SEED-Encoder**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-  - [Pre-trained Language Model for Web-scale Retrieval in Baidu Search](https://arxiv.org/pdf/2106.03373.pdf)（Liu et al., 2021, KDD）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Less is More: Pre-training a Strong Siamese Encoder Using a Weak Decoder](https://arxiv.org/pdf/2102.09206.pdf)（Lu et al., 2021, EMNLP, **SEED-Encoder**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Pre-trained Language Model for Web-scale Retrieval in Baidu Search](https://arxiv.org/pdf/2106.03373.pdf)（Liu et al., 2021, KDD）
   - [Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need](http://playbigdata.ruc.edu.cn/dou/publication/2021_CIKM_Pretraining.pdf)（Ma et al., 2021, CIKM, **HARP**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Joint Learning with Index**
   - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index](https://arxiv.org/pdf/2105.03933.pdf)（Zhang et al., 2021, SIGIR, **Poeem**）
