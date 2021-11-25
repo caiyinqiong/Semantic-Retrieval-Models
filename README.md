@@ -1,8 +1,9 @@
 <div align="center">
     <p><b>Awesome Semantic Models for the First-stage Retrieval</b></p>
     <br><br>
-   <img width="500" src="./images/architecture.png" alt="Awesome">
+   <img width="500" src="./images/framework.png" alt="Awesome">
 </div>
+
 
 > Note: 
 >
