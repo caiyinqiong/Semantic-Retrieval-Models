@@ -61,7 +61,6 @@
 ## Early Methods for Semantic Retrieval
 
 ### Query Expansion
-
 - **Global Model**
   - [Word-word Associations in Document Retrieval Systems](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630200106)（1969）
   - [Concept based Query Expansion](https://dl.acm.org/doi/pdf/10.1145/160688.160713)（1993）
@@ -78,7 +77,6 @@
 - [Query Expansion using Local and Global Document Analysis](https://dl.acm.org/doi/pdf/10.1145/3130348.3130364)（2017）
 
 ### Document Expansion
-
 - [Corpus Structure, Language Models, and Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009027)（2004）
 - [Cluster-Based Retrieval Using Language Models](https://dl.acm.org/doi/pdf/10.1145/1008992.1009026)（2004）
 - [Language Model Information Retrieval with Document Expansion](https://aclanthology.org/N06-1052.pdf)（2006）
@@ -88,7 +86,6 @@
 - [Document Expansion versus Query Expansion for Ad-hoc Retrieval](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.5571&rep=rep1&type=pdf)（2005）
 
 ### Term Dependency Model
-
 - [Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods](https://www.proquest.com/openview/94f58af398638882ce784a030bf5c558/1?pq-origsite=gscholar&cbl=18750&diss=y)（1987, **VSM + term dependency**）
 - [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210)（1988, **VSM + term dependency**）
 - [An Analysis of Statistical and Syntactic Phrases](http://www.singhal.info/riao97.pdf)（1997, **VSM + term dependency**）
@@ -102,7 +99,6 @@
 - [A Markov Random Field Model for Term Dependencies](https://dl.acm.org/doi/pdf/10.1145/1076034.1076115)（2005, **SDM**）
 
 ### Topic Model
-
 - [Generalized Vector Space Model In Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/253495.253506)（1985, **GVSM**）
 - [Indexing by Latent Semantic Analysis](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1097-4571(199009)41:6%3C391::AID-ASI1%3E3.0.CO;2-9)（1990, **LSI for IR**）
 - [Probabilistic Latent Semantic Indexing](https://dl.acm.org/doi/pdf/10.1145/312624.312649?casa_token=7XwmJlApc80AAAAA:RM5pkFN1FYzICP1ZbSaj8ADlRxUY_x7g5nwOTpc7hFqOX2_QsYafNJ4Q7VN4fnens87w_j7L5wvR)（2017, **PLSA, linearly combine**）
@@ -114,7 +110,6 @@
 - [Latent Semantic Indexing (LSI) Fails for TREC Collections](https://dl.acm.org/doi/pdf/10.1145/1964897.1964900)（2011）
 
 ### Translation Model
-
 - [Information Retrieval as Statistical Translation](https://dl.acm.org/doi/pdf/10.1145/3130348.3130371)（1999）
 - [Estimation of Statistical Translation Models Based on Mutual Information for Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1835449.1835505)（2010）
 - [Clickthrough-Based Translation Models for Web Search: From Word Models to Phrase Models](https://dl.acm.org/doi/pdf/10.1145/1871437.1871582)（2010）
@@ -136,13 +131,11 @@
   - [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263)（Mackenzie et al., 2020, SIGIR, **DeepCT**）
   - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258)（Dai et al., 2020, WWW, **HDCT**）
   - [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf)（Lin et al., 2021, arXiv, **uniCOIL**）
-
 - **Expansion**
   - [Document Expansion by query Prediction](https://arxiv.org/pdf/1904.08375.pdf)（Nogueira et al., 2019, arXiv, **Doc2Query**）
   - [From doc2query to docTTTTTquery](https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf)（Nogueira et al., 2019, arXiv, **DocTTTTTQuery**）
   - [A Unified Pretraining Framework for Passage Ranking and Expansion](https://ojs.aaai.org/index.php/AAAI/article/view/16584)（Yan et al., 2021, AAAI, **UED**）
   - [Generation-augmented Retrieval for Open-domain Question Answering](https://aclanthology.org/2021.acl-long.316.pdf)（Mao et al., 2020, ACL, **GAR**, **query expansion**）
-
 - **Expansion + Term Re-weighting**
   - [Expansion via Prediction of Importance with Contextualization](https://dl.acm.org/doi/pdf/10.1145/3397271.3401262)（MacAvaney et al., 2020, SIGIR, **EPIC**）
   - [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval](https://arxiv.org/pdf/2010.00768.pdf)（Bai et al., 2020, arXiv, **SparTerm**）
@@ -151,7 +144,6 @@
   - [Learning Passage Impacts for Inverted Indexes](https://dl.acm.org/doi/pdf/10.1145/3404835.3463030)（Mallia et al., 2021, SIGIR, **DeepImapct**）
   - [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking](http://ielab.io/publications/pdfs/arvin2021tilde.pdf)（Zhuang et al., 2021, SIGIR, **TILDE**）
   - [Fast Passage Re-ranking with Contextualized Exact Term Matching and Efficient Passage Expansion](https://arxiv.org/pdf/2108.08513.pdf)（Zhuang et al., 2021, arXiv, **TILDEv2**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-
 - **Sparse Representation Learning**
   - [Semantic Hashing](https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324)（Salakhutdinov et al., 2009）
   - [From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing](https://dl.acm.org/doi/pdf/10.1145/3269206.3271800)（Zamani et al., 2018, CIKM, **SNRM**）
