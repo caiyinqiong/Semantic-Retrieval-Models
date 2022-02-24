@@ -125,7 +125,7 @@
 - **Term Re-weighting**
   - [Learning to Reweight Terms with Distributed Representations](https://dl.acm.org/doi/pdf/10.1145/2766462.2767700)（Zheng et al., 2015, SIGIR, **DeepTR**）
   - [Integrating and Evaluating Neural Word Embeddings in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2838931.2838936)（Zuccon et al., 2015, ADCS, **NTLM**）
-  - [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211)（Frej et al, 2020, SIGIR, **TVD**）
+  - [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211)（Frej et al, 2020, SIGIR, **TDV**）
   - [Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval](https://arxiv.org/pdf/1910.10687.pdf)（Dai et al., 2019, arXiv, **DeepCT**）
   - [Context-Aware Term Weighting For First-Stage Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204)（Dai et al., 2020, SIGIR, **DeepCT**）
   - [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263)（Mackenzie et al., 2020, SIGIR, **DeepCT**）
@@ -185,6 +185,7 @@
 - [Representation Decoupling for Open-Domain Passage Retrieval](https://arxiv.org/pdf/2110.07524.pdf)（Wu et al., 2021, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking](https://arxiv.org/pdf/2110.07367.pdf)（Ren et al., 2021, EMNLP, **RocketQAv2**）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - [Efﬁcient Training of Retrieval Models Using Negative Cache](https://proceedings.neurips.cc/paper/2021/file/2175f8c5cd9604f6b1e576b252d4c86e-Paper.pdf)（Lindgren et al., 2021, NeurIPS）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Adversarial Retriever-Ranker for dense text retrieval](https://arxiv.org/pdf/2110.03611.pdf)（Zhang et al., 2022, ICLR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Knowledge Distillation**
   - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers](https://arxiv.org/pdf/2010.11386.pdf)（Lin et al., 2020, arXiv, **TCT-ColBERT**）
   - [Distilling Knowledge for Fast Retrieval-based Chat-bots](https://dl.acm.org/doi/pdf/10.1145/3397271.3401296)（Tahami et al., 2020, SIGIR）
