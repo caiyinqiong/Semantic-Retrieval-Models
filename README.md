@@ -5,7 +5,7 @@
 </div>
 
 
-> Note: 
+> Note:   
 >
 > - A curated list of awesome papers for **[Semantic Retrieval](https://arxiv.org/abs/2103.04831)**, including some early methods and recent neural models for information retrieval tasks (e.g., ad-hoc retrieval, open-domain QA, community-based QA, and automatic conversation).
 > - For researchers who want to acquire semantic models for re-ranking stages, we refer readers to the awesome NeuIR survey by *[Guo et.al](https://arxiv.org/abs/1903.06902)*.
