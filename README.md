@@ -41,6 +41,8 @@
 - [**Semantic Models for the First-stage Retrieval: A Comprehensive Review**](https://arxiv.org/pdf/2103.04831.pdf) **（Guo et al., 2021, TOIS）**<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - [A Proposed Conceptual Framework for a Representational Approach to Information Retrieval](https://arxiv.org/pdf/2110.01529.pdf)（Lin et al., 2021, arXiv）
 - [Pre-training Methods in Information Retrieval](https://arxiv.org/pdf/2111.13853.pdf)（Fan et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/pdf/2211.14876.pdf) （Zhao et al., 2022, arXiv） <img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [Low-Resource Dense Retrieval for Open-Domain Question Answering: A Comprehensive Survey](https://arxiv.org/pdf/2208.03197.pdf)（Shen et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 
 
 
@@ -234,37 +236,62 @@
   - [Less is More: Pre-training a Strong Siamese Encoder Using a Weak Decoder](https://arxiv.org/pdf/2102.09206.pdf)（Lu et al., 2021, EMNLP, **SEED-Encoder**）
   - [Pre-trained Language Model for Web-scale Retrieval in Baidu Search](https://arxiv.org/pdf/2106.03373.pdf)（Liu et al., 2021, KDD）
   - [Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need](http://playbigdata.ruc.edu.cn/dou/publication/2021_CIKM_Pretraining.pdf)（Ma et al., 2021, CIKM, **HARP**）
+  - [Pre-train a discriminative text encoder for dense retrieval via contrastive span prediction](https://arxiv.org/pdf/2204.10641.pdf)（Ma et al., 2022, SIGIR）
+  - [TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://aclanthology.org/2021.findings-emnlp.59.pdf)（Wang et al., 2021, EMNLP）
   - [ConTextual Mask Auto-Encoder for Dense Passage Retrieval](https://arxiv.org/pdf/2208.07670.pdf)（Wu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [SimLM: Pre-training with representation bottleneck for dense passage retrieval](https://arxiv.org/pdf/2207.02578.pdf)（Wang et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [LexMAE: Lexicon-Bottlenecked Pretraining for Large-Scale Retrieval](https://arxiv.org/pdf/2208.14754v1.pdf)（Shen et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [A Contrastive Pre-training Approach to Learn Discriminative Autoencoder for Dense Retrieval](https://arxiv.org/pdf/2208.09846.pdf)（Ma et al., 2022, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [RetroMAE: Pre-Training Retrieval-oriented Language Models Via Masked Auto-Encoder](https://arxiv.org/pdf/2205.12035.pdf)（Xiao and Liu et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Retrieval Oriented Masking Pre-training Language Model for Dense Passage Retrieval](https://arxiv.org/pdf/2210.15133.pdf)（Long et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval](https://arxiv.org/pdf/2203.06169.pdf)（Xu et al., 2022, ACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Masked Autoencoders As The Unified Learners For Pre-Trained Sentence Representation](https://arxiv.org/pdf/2208.00231.pdf)（Liu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Joint Learning with Index** 
   - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index](https://arxiv.org/pdf/2105.03933.pdf)（Zhang et al., 2021, SIGIR, **Poeem**）
   - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance](https://arxiv.org/pdf/2108.00644.pdf)（Zhan et al., 2021, CIKM, **JPQ**）
   - [Matching-oriented Product Quantization For Ad-hoc Retrieval](https://arxiv.org/pdf/2104.07858.pdf)（Xiao et al., 2021, EMNLP, **MoPQ**）
   - [Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval](https://arxiv.org/pdf/2110.05789)（Zhan et al, 2022, WSDM, **RepCONC**）
+- **Joint Learning with Ranker**
+  - [End-to-End Training of Neural Retrievers for Open-Domain Question Answering](https://arxiv.org/pdf/2101.00408.pdf)（Sachan et al., 2021, ACL）
+  - [HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking](https://arxiv.org/pdf/2205.10569.pdf)（Zhang et al., 2022, arXiv） <img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+
 - **Debias**
   - [Learning Robust Dense Retrieval Models from Incomplete Relevance Labels](https://dl.acm.org/doi/pdf/10.1145/3404835.3463106?casa_token=o7uvhY_qcJgAAAAA:m5tqKfk2x4HNcucL2iL5oMclriEuEZ-O_k7sy8UcJiAWe493HIFg6OeJv-kG7DQEMcoCjZEyhEP3Mg)（Prakash et al., 2021, SIGIR, **RANCE**）
+  - [Hard negatives or false negatives: Correcting pooling bias in training neural ranking models](https://dl.acm.org/doi/pdf/10.1145/3511808.3557343)（Cai et al., 2022, CIKM）
+  - [SimANS: Simple Ambiguous Negatives Sampling for Dense Text Retrieval](https://arxiv.org/pdf/2210.11773.pdf)（Zhou et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Debiased contrastive learning of unsupervised sentence representations](https://aclanthology.org/2022.acl-long.423.pdf)（Zhou et al., 2022, ACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Zero-shot/Few-shot**
   - [Embedding-based Zero-shot Retrieval through Query Generation](https://arxiv.org/pdf/2009.10270.pdf)（Liang et al., 2020, arXiv）
   - [Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation](https://arxiv.org/pdf/2004.14503.pdf)（Ma et al., 2020, **QGen**, arXiv）
   - [Towards Robust Neural Retrieval Models with Synthetic Pre-Training](https://arxiv.org/pdf/2104.07800.pdf)（Reddy et al., 2021, arXiv）
   - [BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models](https://arxiv.org/pdf/2104.08663.pdf)（Thakur et al., 2021, NeurIPS）
   - [Zero-Shot Dense Retrieval with Momentum Adversarial Domain Invariant Representations](https://arxiv.org/pdf/2110.07581.pdf)（Xin et al., 2021, arXiv, **MoDIR**）
-  - [Large Dual Encoders Are Generalizable Retrievers](https://arxiv.org/pdf/2112.07899.pdf)（Ni et al., 2021, arXiv, **DTR**）
+  - [Large Dual Encoders Are Generalizable Retrievers](https://arxiv.org/pdf/2112.07899.pdf)（Ni et al., 2022, EMNLP, **DTR**）
   - [Out-of-Domain Semantics to the Rescue! Zero-Shot Hybrid Retrieval Models](https://arxiv.org/pdf/2201.10582.pdf)（Chen et al., 2022, ECIR）
   - [InPars: Data Augmentation for Information Retrieval using Large Language Models](https://arxiv.org/pdf/2202.05144.pdf)（Bonifacio et al., 2022, arXiv）
   - [Towards Unsupervised Dense Information Retrieval with Contrastive Learning](https://arxiv.org/pdf/2112.09118.pdf)（Izacard et al., 2021, arXiv, **Contriever**）
-  - [GPL: Generative Pseudo Labeling for Unsupervised Domain Adaptation of Dense Retrieval](https://arxiv.org/pdf/2112.07577.pdf)（Wang et al., 2021, arXiv）
+  - [GPL: Generative Pseudo Labeling for Unsupervised Domain Adaptation of Dense Retrieval](https://arxiv.org/pdf/2112.07577.pdf)（Wang et al., 2022, NAACL）
   - [Learning to Retrieve Passages without Supervision](https://arxiv.org/pdf/2112.07708.pdf)（Ram et al., 2021, arXiv, **Spider**）
+  - [A thorough examination on zero-shot dense retrieval](https://arxiv.org/pdf/2204.12755.pdf)（Ren et al., 2022, arXiv）
   - [Text and Code Embeddings by Contrastive Pre-Training](https://arxiv.org/pdf/2201.10005.pdf)（Neelakantan et al., 2022, arXiv）
   - [Disentangled Modeling of Domain and Relevance for Adaptable Dense Retrieval](https://arxiv.org/pdf/2208.05753.pdf)（Zhan et al., 2022, arXiv）
   - [Promptagator: Few-shot Dense Retrieval From 8 Examples](https://arxiv.org/pdf/2209.11755v1.pdf)（Dai et al., 2022, arXiv）
   - [Questions Are All You Need to Train a Dense Passage Retriever](https://arxiv.org/pdf/2206.10658.pdf)（Sachan et al., 2022, TACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization](https://openreview.net/pdf?id=kUf4BcWXGJr)（Cai et al., 2023, ICLR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [COCO-DR: Combating Distribution Shifts in Zero-Shot Dense Retrieval with Contrastive and Distributionally Robust Learning](https://arxiv.org/pdf/2210.15212.pdf)（Yu et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Challenges in generalization in open domain question answering](https://arxiv.org/pdf/2109.01156.pdf)（Liu et al., 2022, NAACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- **Multilingual**
+  - [Recovering Gold from Black Sand: Multilingual Dense Passage Retrieval with Hard and False Negative Samples](https://aclanthology.org/2022.emnlp-main.730.pdf)（Shen et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+
+- **Robustness**
+  - [Towards robust dense retrieval via local ranking alignment](https://www.ijcai.org/proceedings/2022/0275.pdf)（Chen et al., 2022, IJCAI）
+  - [Dealing with typos for bert-based passage retrieval and ranking](https://arxiv.org/pdf/2108.12139.pdf)（Zhuang et al., 2021, EMNLP）
+  - [Evaluating the robustness of retrieval pipelines with query variation generators](https://arxiv.org/pdf/2111.13057.pdf)（Penha et al., 2022, ECIR）
+  - [Analysing the robustness of dual encoders for dense retrieval against misspellings](https://dl.acm.org/doi/10.1145/3477495.3531818)（Sidiropoulos et al., 2022, SIGIR）
+  - [Characterbert and self-teaching for improving the robustness of dense retrievers on queries with typos](https://arxiv.org/pdf/2204.00716.pdf)（Zhuang et al., 2022, SIGIR）
+  - [BERT rankers are brittle: A study using adversarial document perturbations](https://arxiv.org/pdf/2206.11724.pdf)（Wang et al., 2022, ICTIR）
+  - [Order-disorder: Imitation adversarial attacks for blackbox neural ranking models](https://arxiv.org/pdf/2209.06506.pdf)（Liu et al., 2022, arXiv）
+
 - **Probing Analysis**
   - [The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes](https://arxiv.org/abs/2012.14210)（Reimers et al., 2021, ACL）
   - [Simple and Effective Unsupervised Redundancy Elimination to Compress Dense Vectors for Passage Retrieval](https://cs.uwaterloo.ca/~jimmylin/publications/Ma_etal_EMNLP2021.pdf)（Ma et al., EMNLP, 2021, **redundancy**）
@@ -278,6 +305,7 @@
   - [Scattered or Connected? An Optimized Parameter-efficient Tuning Approach for Information Retrieval](https://arxiv.org/pdf/2208.09847.pdf)（Ma et al., 2022, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [DPTDR: Deep Prompt Tuning for Dense Passage Retrieval](https://arxiv.org/pdf/2208.11503.pdf)（Tang et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Parameter-Efﬁcient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers](https://arxiv.org/pdf/2207.07087.pdf)（Tam et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [NIR-Prompt: A Multi-task Generalized Neural Information Retrieval Training Framework](https://arxiv.org/pdf/2212.00229.pdf)（Xu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Others**
   - [Isotropic Representation Can Improve Dense Retrieval](https://arxiv.org/pdf/2209.00218.pdf)（Jung et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Towards Robust Dense Retrieval via Local Ranking Alignment](https://www.ijcai.org/proceedings/2022/0275.pdf)（Chen et al, 2022, IJCAI）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
