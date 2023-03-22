@@ -254,7 +254,6 @@
 - **Joint Learning with Ranker**
   - [End-to-End Training of Neural Retrievers for Open-Domain Question Answering](https://arxiv.org/pdf/2101.00408.pdf)（Sachan et al., 2021, ACL）
   - [HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking](https://arxiv.org/pdf/2205.10569.pdf)（Zhang et al., 2022, arXiv） <img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-
 - **Debias**
   - [Learning Robust Dense Retrieval Models from Incomplete Relevance Labels](https://dl.acm.org/doi/pdf/10.1145/3404835.3463106?casa_token=o7uvhY_qcJgAAAAA:m5tqKfk2x4HNcucL2iL5oMclriEuEZ-O_k7sy8UcJiAWe493HIFg6OeJv-kG7DQEMcoCjZEyhEP3Mg)（Prakash et al., 2021, SIGIR, **RANCE**）
   - [Hard negatives or false negatives: Correcting pooling bias in training neural ranking models](https://dl.acm.org/doi/pdf/10.1145/3511808.3557343)（Cai et al., 2022, CIKM）
@@ -282,7 +281,6 @@
   - [Challenges in generalization in open domain question answering](https://arxiv.org/pdf/2109.01156.pdf)（Liu et al., 2022, NAACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Multilingual**
   - [Recovering Gold from Black Sand: Multilingual Dense Passage Retrieval with Hard and False Negative Samples](https://aclanthology.org/2022.emnlp-main.730.pdf)（Shen et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-
 - **Robustness**
   - [Towards robust dense retrieval via local ranking alignment](https://www.ijcai.org/proceedings/2022/0275.pdf)（Chen et al., 2022, IJCAI）
   - [Dealing with typos for bert-based passage retrieval and ranking](https://arxiv.org/pdf/2108.12139.pdf)（Zhuang et al., 2021, EMNLP）
@@ -291,7 +289,6 @@
   - [Characterbert and self-teaching for improving the robustness of dense retrievers on queries with typos](https://arxiv.org/pdf/2204.00716.pdf)（Zhuang et al., 2022, SIGIR）
   - [BERT rankers are brittle: A study using adversarial document perturbations](https://arxiv.org/pdf/2206.11724.pdf)（Wang et al., 2022, ICTIR）
   - [Order-disorder: Imitation adversarial attacks for blackbox neural ranking models](https://arxiv.org/pdf/2209.06506.pdf)（Liu et al., 2022, arXiv）
-
 - **Probing Analysis**
   - [The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes](https://arxiv.org/abs/2012.14210)（Reimers et al., 2021, ACL）
   - [Simple and Effective Unsupervised Redundancy Elimination to Compress Dense Vectors for Passage Retrieval](https://cs.uwaterloo.ca/~jimmylin/publications/Ma_etal_EMNLP2021.pdf)（Ma et al., EMNLP, 2021, **redundancy**）
