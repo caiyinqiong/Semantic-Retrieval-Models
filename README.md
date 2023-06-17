@@ -242,11 +242,14 @@
   - [ConTextual Mask Auto-Encoder for Dense Passage Retrieval](https://arxiv.org/pdf/2208.07670.pdf)（Wu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [SimLM: Pre-training with representation bottleneck for dense passage retrieval](https://arxiv.org/pdf/2207.02578.pdf)（Wang et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [LexMAE: Lexicon-Bottlenecked Pretraining for Large-Scale Retrieval](https://arxiv.org/pdf/2208.14754v1.pdf)（Shen et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-  - [A Contrastive Pre-training Approach to Learn Discriminative Autoencoder for Dense Retrieval](https://arxiv.org/pdf/2208.09846.pdf)（Ma et al., 2022, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [A Contrastive Pre-training Approach to Learn Discriminative Autoencoder for Dense Retrieval](https://arxiv.org/pdf/2208.09846.pdf)（Ma et al., 2022, CIKM）
   - [RetroMAE: Pre-Training Retrieval-oriented Language Models Via Masked Auto-Encoder](https://arxiv.org/pdf/2205.12035.pdf)（Xiao and Liu et al., 2022, EMNLP）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Retrieval Oriented Masking Pre-training Language Model for Dense Passage Retrieval](https://arxiv.org/pdf/2210.15133.pdf)（Long et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval](https://arxiv.org/pdf/2203.06169.pdf)（Xu et al., 2022, ACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Masked Autoencoders As The Unified Learners For Pre-Trained Sentence Representation](https://arxiv.org/pdf/2208.00231.pdf)（Liu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [MASTER: Multi-task Pre-trained Bottlenecked Masked Autoencoders are Better Dense Retrievers](https://arxiv.org/pdf/2212.07841.pdf)（Zhou et al., 2023, ICLR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [CoT-MAE v2: Contextual Masked Auto-Encoder with Multi-view Modeling for Passage Retrieval](https://arxiv.org/pdf/2304.03158.pdf)（Wu et al., 2023, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [CoT-MoTE: Exploring ConTextual Masked Auto-Encoder Pre-training with Mixture-of-Textual-Experts for Passage Retrieval](https://arxiv.org/pdf/2304.10195.pdf)（Ma et al., 2023, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Joint Learning with Index** 
   - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index](https://arxiv.org/pdf/2105.03933.pdf)（Zhang et al., 2021, SIGIR, **Poeem**）
   - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance](https://arxiv.org/pdf/2108.00644.pdf)（Zhan et al., 2021, CIKM, **JPQ**）
@@ -289,6 +292,7 @@
   - [Characterbert and self-teaching for improving the robustness of dense retrievers on queries with typos](https://arxiv.org/pdf/2204.00716.pdf)（Zhuang et al., 2022, SIGIR）
   - [BERT rankers are brittle: A study using adversarial document perturbations](https://arxiv.org/pdf/2206.11724.pdf)（Wang et al., 2022, ICTIR）
   - [Order-disorder: Imitation adversarial attacks for blackbox neural ranking models](https://arxiv.org/pdf/2209.06506.pdf)（Liu et al., 2022, arXiv）
+  - [Typos-aware Bottlenecked Pre-Training for Robust Dense Retrieval](https://arxiv.org/pdf/2304.08138.pdf)（Zhuang et al., 2023, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Probing Analysis**
   - [The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes](https://arxiv.org/abs/2012.14210)（Reimers et al., 2021, ACL）
   - [Simple and Effective Unsupervised Redundancy Elimination to Compress Dense Vectors for Passage Retrieval](https://cs.uwaterloo.ca/~jimmylin/publications/Ma_etal_EMNLP2021.pdf)（Ma et al., EMNLP, 2021, **redundancy**）
