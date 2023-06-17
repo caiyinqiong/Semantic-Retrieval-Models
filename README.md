@@ -148,7 +148,7 @@
   - [Learning Passage Impacts for Inverted Indexes](https://dl.acm.org/doi/pdf/10.1145/3404835.3463030)（Mallia et al., 2021, SIGIR, **DeepImapct**）
   - [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking](http://ielab.io/publications/pdfs/arvin2021tilde.pdf)（Zhuang et al., 2021, SIGIR, **TILDE**）
   - [Fast Passage Re-ranking with Contextualized Exact Term Matching and Efficient Passage Expansion](https://arxiv.org/pdf/2108.08513.pdf)（Zhuang et al., 2021, arXiv, **TILDEv2**）
-  - [SpaDE: Improving Sparse Representations using a Dual Document Encoder for First-stage Retrieval](https://arxiv.org/pdf/2209.05917.pdf)（Choi et al., 2022, CIKM）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [SpaDE: Improving Sparse Representations using a Dual Document Encoder for First-stage Retrieval](https://arxiv.org/pdf/2209.05917.pdf)（Choi et al., 2022, CIKM）
 - **Sparse Representation Learning**
   - [Semantic Hashing](https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324)（Salakhutdinov et al., 2009）
   - [From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing](https://dl.acm.org/doi/pdf/10.1145/3269206.3271800)（Zamani et al., 2018, CIKM, **SNRM**）
@@ -194,10 +194,10 @@
 - [Improving Embedding-based Large-scale Retrieval via Label Enhancement](https://aclanthology.org/2021.findings-emnlp.13.pdf)（Liu et al., 2021, EMNLP）
 - [Dense Hierarchical Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/2110.15439.pdf)（Liu et al., 2021, EMNLP）
 - [Progressively Optimized Bi-Granular Document Representation for Scalable Embedding Based Retrieval](https://arxiv.org/pdf/2201.05409.pdf)（Xiao er al., 2022，WWW）
-- [LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval](https://arxiv.org/pdf/2208.13661.pdf)（Zhang et al., 2023, WWW）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Aggretriever: A Simple Approach to Aggregate Textual Representation for Robust Dense Passage Retrieval](https://arxiv.org/pdf/2208.00511.pdf)（Lin et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Sentence-aware Contrastive Learning for Open-Domain Passage Retrieval](https://aclanthology.org/2022.acl-long.76.pdf)（Wu et al., 2022, ACL）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Task-Aware Specialization for Efﬁcient and Robust Dense Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/2210.05156.pdf)（Cheng et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval](https://arxiv.org/pdf/2208.13661.pdf)（Zhang et al., 2023, WWW）
+- [Aggretriever: A Simple Approach to Aggregate Textual Representation for Robust Dense Passage Retrieval](https://arxiv.org/pdf/2208.00511.pdf)（Lin et al., 2022, arXiv）
+- [Sentence-aware Contrastive Learning for Open-Domain Passage Retrieval](https://aclanthology.org/2022.acl-long.76.pdf)（Wu et al., 2022, ACL）
+- [Task-Aware Specialization for Efﬁcient and Robust Dense Retrieval for Open-Domain Question Answering](https://arxiv.org/pdf/2210.05156.pdf)（Cheng et al., 2022, arXiv）
 - **Knowledge Distillation**
   - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers](https://arxiv.org/pdf/2010.11386.pdf)（Lin et al., 2020, arXiv, **TCT-ColBERT**）
   - [Distilling Knowledge for Fast Retrieval-based Chat-bots](https://dl.acm.org/doi/pdf/10.1145/3397271.3401296)（Tahami et al., 2020, SIGIR）
@@ -216,8 +216,8 @@
   - [Query Embedding Pruning for Dense Retrieval](https://arxiv.org/abs/2108.10341)（Tonellotto et al., 2021, CIKM）
   - [Multi-View Document Representation Learning for Open-Domain Dense Retrieval](https://arxiv.org/pdf/2203.08372.pdf)（Zhang et al., 2022, ACL）
   - [ColBERTv2: Effective and Efﬁcient Retrieval via Lightweight Late Interaction](https://arxiv.org/pdf/2112.01488.pdf)（Santhanam, 2022, NAACL）
-  - [Learning Diverse Document Representations with Deep Query Interactions for Dense Retrieval](https://arxiv.org/pdf/2208.04232.pdf)（Li et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-  - [Topic-Grained Text Representation-based Model for Document Retrieval](https://arxiv.org/pdf/2207.04656.pdf)（Du et al., 2022, ICANN）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [Learning Diverse Document Representations with Deep Query Interactions for Dense Retrieval](https://arxiv.org/pdf/2208.04232.pdf)（Li et al., 2022, arXiv）
+  - [Topic-Grained Text Representation-based Model for Document Retrieval](https://arxiv.org/pdf/2207.04656.pdf)（Du et al., 2022, ICANN）
 - **Accelerate Interaction-based Models**
   - [Incorporating Query Term Independence Assumption for Efficient Retrieval and Ranking using Deep Neural Networks](https://arxiv.org/pdf/1907.03693.pdf)（Mitra et al., 2019, arXiv）
   - [Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing](https://dl.acm.org/doi/pdf/10.1145/3308558.3313576)（Ji et al., 2019, WWW）
@@ -308,6 +308,9 @@
   - [DPTDR: Deep Prompt Tuning for Dense Passage Retrieval](https://arxiv.org/pdf/2208.11503.pdf)（Tang et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [Parameter-Efﬁcient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers](https://arxiv.org/pdf/2207.07087.pdf)（Tam et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
   - [NIR-Prompt: A Multi-task Generalized Neural Information Retrieval Training Framework](https://arxiv.org/pdf/2212.00229.pdf)（Xu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- **Large Language Model for Retrieval**
+  - [Precise Zero-Shot Dense Retrieval without Relevance Labels](https://arxiv.org/pdf/2212.10496.pdf)（Gao et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  
 - **Others**
   - [HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking](https://arxiv.org/pdf/2205.10569.pdf)（Zhang et al., 2022, arXiv） 
   - [Asyncval: A Toolkit for Asynchronously Validating Dense Retriever Checkpoints during Training](https://arxiv.org/pdf/2202.12510.pdf)（Zhuang et al., 2022, SIGIR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
@@ -334,7 +337,7 @@
 - [Predicting Efficiency/Effectiveness Trade-offs for Dense vs. Sparse Retrieval Strategy Selection](https://arxiv.org/pdf/2109.10739.pdf)（Arabzadeh et al., 2021, CIKM）
 - [Fast Forward Indexes for Efficient Document Ranking](https://arxiv.org/pdf/2110.06051.pdf)（Leonhardt et al., 2021, arXiv）
 - [Densifying Sparse Representations for Passage Retrieval by Representational Slicing](https://arxiv.org/pdf/2112.04666.pdf)（Lin et al., 2021, arXiv）
-- [UniﬁeR: A Uniﬁed Retriever for Large-Scale Retrieval](https://arxiv.org/pdf/2205.11194.pdf)（Shen et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+- [UniﬁeR: A Uniﬁed Retriever for Large-Scale Retrieval](https://arxiv.org/pdf/2205.11194.pdf)（Shen et al., 2022, arXiv）
 
 
 
