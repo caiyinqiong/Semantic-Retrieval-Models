@@ -307,6 +307,7 @@
   - [NIR-Prompt: A Multi-task Generalized Neural Information Retrieval Training Framework](https://arxiv.org/pdf/2212.00229.pdf)（Xu et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
 - **Large Language Model for Retrieval**
   - [Precise Zero-Shot Dense Retrieval without Relevance Labels](https://arxiv.org/pdf/2212.10496.pdf)（Gao et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+  - [ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance](https://aclanthology.org/2025.emnlp-main.963.pdf)（Yao et al., 2025, EMNLP, **ExpandR**）
 - **Others**
   - [HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking](https://arxiv.org/pdf/2205.10569.pdf)（Zhang et al., 2022, arXiv） 
   - [Asyncval: A Toolkit for Asynchronously Validating Dense Retriever Checkpoints during Training](https://arxiv.org/pdf/2202.12510.pdf)（Zhuang et al., 2022, SIGIR）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
